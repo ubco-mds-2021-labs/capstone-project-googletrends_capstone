@@ -5,10 +5,9 @@
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
-- Person 4: one sentence about you!
+- Aishwarya Sharma: one sentence about you!
+- Harpreet Kaur: Passionate mathematician on the path of becoming a statistician.
+- Jagdeep Brar: one sentence about you!
 
 ## Describe your topic/interest in about 150-200 words
 
