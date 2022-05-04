@@ -1,11 +1,11 @@
-# Work Log for {{ Your Name }}
+# Work Log for Jagdeep Brar
 
 | Day   | Hours | Description                              |
 |-------|-------|------------------------------------------|
 | May01 | 2     | Set up Trello Boards, completed calendar |
-| May0X | X     |                                          |
-| May0X | X     |                                          |
-| May0X | X     |                                          |
+| May02 |  4.5  | Explored Google trends API and searched for different keywords                                         |
+| May03 |  9    | Had meeting with StatCan and read out the articles provided by them to get better understanding of the problem          |
+| May04 | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
