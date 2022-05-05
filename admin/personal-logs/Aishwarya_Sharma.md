@@ -5,7 +5,7 @@
 | May01 | 2     | Set up Trello Boards, completed calendar |
 | May02 | 4     | Researched for google trends and how to fetch data for the same. Explored the API and selected desired keywords.|
 | May03 | 9     | Had meeting with statCan and read the papers and other links that the company has provided.|
-| May04 | X     |                                          |
+| May04 | 9     | Looked upon the dataset shared by statCan and understood that. Created the plan for working an divided the work for                     proposal document. Worked upon aims, objectives, data set, methodologies part for the proposal document.|
 | May05 | X     |                                          |
 | May06 | X     |                                          |
 | May07 | X     |                                          |
