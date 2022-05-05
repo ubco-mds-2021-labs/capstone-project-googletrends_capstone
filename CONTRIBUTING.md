@@ -1,4 +1,4 @@
-First off, thanks for taking the time to contribute! We will be working on this repository as a class project until April 2022, after which we will happily acccept contributions.
+First off, thanks for taking the time to contribute! We will be working on this repository as a class project until May 2022, after which we will happily acccept contributions.
 
 All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
 
