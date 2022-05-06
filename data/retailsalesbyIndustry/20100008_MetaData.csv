@@ -1,0 +1,101 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Retail trade sales by province and territory","20100008","080-0020","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010000801",2;3;4;5;6;8,"CURRENT - a cube available to the public and that is current","Monthly","1991-01-01","2022-02-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","North American Industry Classification System (NAICS)",,""
+"3","Adjustments",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","",,
+"1","Nova Scotia","[12]","4","1","",,
+"1","New Brunswick","[13]","5","1","",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","8","1","",,
+"1","Manitoba","[46]","10","1","",,
+"1","Saskatchewan","[47]","11","1","",,
+"1","Alberta","[48]","12","1","",,
+"1","British Columbia","[59]","13","1","",,
+"1","Yukon","[60]","15","1","",,
+"1","Northwest Territories","[61]","16","1","",,
+"1","Nunavut","[62]","17","1","",,
+"1","Montréal, Quebec","[462]","7","6","",,
+"1","Quebec, Quebec","[421]","18","6","",,
+"1","Gatineau, Quebec","[24505]","19","6","",,
+"1","Toronto, Ontario","[535]","9","8","",,
+"1","Ottawa, Ontario","[35505]","20","8","",,
+"1","Winnipeg, Manitoba","[602]","21","10","",,
+"1","Calgary, Alberta","[825]","22","12","",,
+"1","Edmonton, Alberta","[835]","23","12","",,
+"1","Vancouver, British Columbia","[933]","14","13","",,
+"1","Canada","[11124]","1","","",,
+"2","Motor vehicle and parts dealers","[441]","2","1","",,
+"2","Furniture and home furnishings stores","[442]","8","1","",,
+"2","Electronics and appliance stores","[443]","11","1","",,
+"2","Building material and garden equipment and supplies dealers","[444]","12","1","",,
+"2","Food and beverage stores","[445]","13","1","",,
+"2","Health and personal care stores","[446]","19","1","",,
+"2","Gasoline stations","[447]","20","1","",,
+"2","Clothing and clothing accessories stores","[448]","21","1","",,
+"2","Sporting goods, hobby, book and music stores","[451]","25","1","",,
+"2","General merchandise stores","[452]","26","1","",,
+"2","Miscellaneous store retailers","[453]","29","1","",,
+"2","Automobile dealers","[4411]","3","2","",,
+"2","Other motor vehicle dealers","[4412]","6","2","",,
+"2","Automotive parts, accessories and tire stores","[4413]","7","2","",,
+"2","New car dealers","[44111]","4","3","",,
+"2","Used car dealers","[44112]","5","3","",,
+"2","Furniture stores","[4421]","9","8","",,
+"2","Home furnishings stores","[4422]","10","8","",,
+"2","Grocery stores","[4451]","14","13","",,
+"2","Specialty food stores","[4452]","17","13","",,
+"2","Beer, wine and liquor stores","[4453]","18","13","",,
+"2","Supermarkets and other grocery (except convenience) stores ","[44511]","15","14","",,
+"2","Convenience stores","[44512]","16","14","",,
+"2","Clothing stores","[4481]","22","21","",,
+"2","Shoe stores","[4482]","23","21","",,
+"2","Jewellery, luggage and leather goods stores","[4483]","24","21","",,
+"2","Department stores","[4521]","27","26","",,
+"2","Other general merchandise stores","[4529]","28","26","",,
+"2","Cannabis stores","[453993]","30","29","",7,
+"2","Retail trade","[44-45]","1","","",,
+"3","Unadjusted","","1","","",,
+"3","Seasonally adjusted","","2","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2406","Retail Trade Survey (Monthly)"
+"2408","Monthly Retail Trade Survey (Department Store Organizations)"
+
+"Subject Code","Subject Name"
+"20","Retail and wholesale"
+
+"Note ID",Note
+2,"The total for retail trade excludes North American Industry Classification System (NAICS) 454."
+3,"This CANSIM table replaces archived table 080-0014, 080-0015 and 080-0017."
+4,"Quality indicator: Code A=Excellent. Code B=Very good. Code C=Good. Code D=Acceptable. Code E=Poor, use with caution. Code F=Unreliable (data not published)."
+5,"Data for Northwest Territories includes Nunavut, from 1991-01 to 1998-12."
+6,"Effective April 2018, data from 2004 onwards are based on the 2017 North American Industry Classification System (NAICS). Data prior to 2004 continue to be based on the 2007 North American Industry Classification System (NAICS)."
+7,"Data for this Canadian industry are presented in unadjusted form as there is no seasonal pattern established by official statistics yet."
+8,"In April 2022, monthly retail trade estimates will be based on a new sample. Seasonally adjusted estimates will be revised back to 2014. Unadjusted estimates will be revised back to 2017."
+
+"Correction ID","Correction Date","Correction Note"
+"1160","2019-04-26","On April 26th, 2019, data for the Cannabis Stores Series were corrected for the province of Ontario for reference period of October 2018.<br>",
+
