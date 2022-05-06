@@ -1,0 +1,52 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Retail e-commerce sales","20100072","080-0033","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010007201",1;2,"CURRENT - a cube available to the public and that is current","Monthly","2016-01-01","2022-02-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Sales",3;4,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Retail trade, unadjusted
+","[44-453]","1","","",,
+"2","Electronic shopping and mail-order houses, unadjusted
+","[45411]","2","","",,
+"2","Retail E-commerce sales, unadjusted
+","","3","","",3;4,
+"2","Retail E-commerce sales, seasonally adjusted
+","","4","","",3;4,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2401","Monthly Wholesale Trade Survey"
+"2406","Retail Trade Survey (Monthly)"
+"2408","Monthly Retail Trade Survey (Department Store Organizations)"
+
+"Subject Code","Subject Name"
+"20","Retail and wholesale"
+
+"Note ID",Note
+1,"The estimates are based on the 2017 North American Industry Classification System (NAICS)."
+2,"Quality indicator: Code A=Excellent. Code B=Very good. Code C=Good. Code D=Acceptable. Code E=Poor, use with caution. Code F=Unreliable (data not published)."
+3,"Retail e-commerce includes e-sales from both store retailers included in NAICS 44-453 and non-store retailers included in electronic shopping and mail order houses (NAICS 45411)."
+4,"Retail e-commerce sales only include online sales made by Canadian retailers. Purchases made by Canadian consumers from foreign-based retailers are excluded."
+
+"Correction ID","Correction Date","Correction Note"
+"1160","2019-04-26","On April 26th, 2019, data for the Cannabis Stores Series were corrected for the province of Ontario for reference period of October 2018.<br>",
+

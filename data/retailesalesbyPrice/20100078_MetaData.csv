@@ -1,0 +1,78 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Retail sales, price, and volume, seasonally adjusted","20100078","080-0027","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010007801",1,"CURRENT - a cube available to the public and that is current","Monthly","2004-01-01","2022-02-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Sales, price and volume",,""
+"3","North American Industry Classification System (NAICS)",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Retail sales in current prices","","1","","",,
+"2","Retail sales Chained Fisher volume index (scaled to equal 100 in 2012)","","2","","",,
+"2","Fisher Chained Price Index (scaled to equal 100 in 2012)","","3","","",,
+"2","Retail sales at 2012 constant prices (Unchained Laspeyres Index)","","4","","",2,
+"3","Motor vehicle and parts dealers","[441]","2","1","",,
+"3","Furniture and home furnishings stores","[442]","8","1","",,
+"3","Electronics and appliance stores","[443]","11","1","",,
+"3","Building material and garden equipment and supplies dealers","[444]","12","1","",,
+"3","Food and beverage stores","[445]","13","1","",,
+"3","Health and personal care stores","[446]","19","1","",,
+"3","Gasoline stations","[447]","20","1","",,
+"3","Clothing and clothing accessories stores","[448]","21","1","",,
+"3","Sporting goods, hobby, book and music stores","[451]","25","1","",,
+"3","General merchandise stores","[452]","26","1","",,
+"3","Miscellaneous store retailers","[453]","29","1","",,
+"3","Automobile dealers","[4411]","3","2","",,
+"3","Other motor vehicle dealers","[4412]","6","2","",,
+"3","Automotive parts, accessories and tire stores","[4413]","7","2","",,
+"3","New car dealers","[44111]","4","3","",,
+"3","Used car dealers","[44112]","5","3","",,
+"3","Furniture stores","[4421]","9","8","",,
+"3","Home furnishings stores","[4422]","10","8","",,
+"3","Grocery stores","[4451]","14","13","",,
+"3","Specialty food stores","[4452]","17","13","",,
+"3","Beer, wine and liquor stores","[4453]","18","13","",,
+"3","Supermarkets and other grocery (except convenience) stores","[44511]","15","14","",,
+"3","Convenience stores","[44512]","16","14","",,
+"3","Clothing stores","[4481]","22","21","",,
+"3","Shoe stores","[4482]","23","21","",,
+"3","Jewellery, luggage and leather goods stores","[4483]","24","21","",,
+"3","Department stores","[4521]","27","26","",,
+"3","Other general merchandise stores","[4529]","28","26","",,
+"3","Cannabis stores","[453993]","30","29","",3,
+"3","Retail trade","[44-45]","1","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2406","Retail Trade Survey (Monthly)"
+"2408","Monthly Retail Trade Survey (Department Store Organizations)"
+
+"Subject Code","Subject Name"
+"20","Retail and wholesale"
+
+"Note ID",Note
+1,"This CANSIM table replaces archived table 80-0024."
+2,"Compiled using Laspeyres index formula."
+3,"Data for this Canadian industry are presented in unadjusted form as there is no seasonal pattern established by official statistics yet."
+
+"Correction ID","Correction Date","Correction Note"
+"1160","2019-04-26","On April 26th, 2019, data for the Cannabis Stores Series were corrected for the province of Ontario for reference period of October 2018.<br>",
+"1106","2018-12-24","<p>On December 24th, 2018, data for both the Retail sales, chained Fisher price index (2012) and Retail sales at 2012 prices (chained Fisher index) series were corrected for April 2018 through October 2018.  <br><br></p>",
+
