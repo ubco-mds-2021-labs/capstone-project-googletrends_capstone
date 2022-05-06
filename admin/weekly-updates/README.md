@@ -1,5 +1,12 @@
 # Weekly Updates
 
-The team will document (summarize) their overall project progress on a weekly basis, linking it to key project deliverables. 
+## Week 1
+* Had meeting with project partners 'Statistics Canada' on Tuesday
+* Discussed scope of the project and expectations
+* Got dataset and will be using Google Trends data along with StatCan dataset
+* Explored data to get the better understanding of dataset and explored Goggle Trends for some keywords and categories
+* Read out research articles provide by project partners
+* Prepared first draft of proposal and sent it to StatCan for review
 
-Place your weekly status updates in this folder before your weekly meeting.
+
+
