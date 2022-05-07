@@ -1,0 +1,593 @@
+﻿"REF_DATE","GEO","DGUID","Sales","UOM","UOM_ID","SCALAR_FACTOR","SCALAR_ID","VECTOR","COORDINATE","VALUE","STATUS","SYMBOL","TERMINATED","DECIMALS"
+"2016-01","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","37415147","A","","","0"
+"2016-01","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","679612","B","","","0"
+"2016-01","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","877354","A","","","0"
+"2016-01","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","977198","A","","","0"
+"2016-02","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","36815980","A","","","0"
+"2016-02","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","616598","A","","","0"
+"2016-02","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","789553","A","","","0"
+"2016-02","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1006610","A","","","0"
+"2016-03","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","42763737","A","","","0"
+"2016-03","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","681191","A","","","0"
+"2016-03","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","865677","A","","","0"
+"2016-03","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","953186","A","","","0"
+"2016-04","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","46155952","A","","","0"
+"2016-04","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","686764","A","","","0"
+"2016-04","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","916710","A","","","0"
+"2016-04","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","964279","A","","","0"
+"2016-05","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","48783412","A","","","0"
+"2016-05","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","681192","A","","","0"
+"2016-05","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","916244","B","","","0"
+"2016-05","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","936366","B","","","0"
+"2016-06","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","48892480","A","","","0"
+"2016-06","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","664582","A","","","0"
+"2016-06","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","896826","A","","","0"
+"2016-06","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","934274","A","","","0"
+"2016-07","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","47842336","A","","","0"
+"2016-07","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","656449","A","","","0"
+"2016-07","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","874358","B","","","0"
+"2016-07","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","978889","B","","","0"
+"2016-08","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","47790528","A","","","0"
+"2016-08","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","664165","A","","","0"
+"2016-08","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","916180","A","","","0"
+"2016-08","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1006616","A","","","0"
+"2016-09","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","47059911","A","","","0"
+"2016-09","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","706048","A","","","0"
+"2016-09","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1016196","B","","","0"
+"2016-09","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1108598","B","","","0"
+"2016-10","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","46455078","A","","","0"
+"2016-10","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","753835","B","","","0"
+"2016-10","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1067243","A","","","0"
+"2016-10","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1110728","A","","","0"
+"2016-11","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","48043147","A","","","0"
+"2016-11","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","965932","A","","","0"
+"2016-11","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1427865","A","","","0"
+"2016-11","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1106944","A","","","0"
+"2016-12","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","51693611","A","","","0"
+"2016-12","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1095973","A","","","0"
+"2016-12","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1757313","B","","","0"
+"2016-12","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1237831","B","","","0"
+"2017-01","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","39636308","A","","","0"
+"2017-01","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","708502","A","","","0"
+"2017-01","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1110045","A","","","0"
+"2017-01","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1235735","A","","","0"
+"2017-02","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","38078162","A","","","0"
+"2017-02","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","640146","A","","","0"
+"2017-02","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","954186","A","","","0"
+"2017-02","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1208353","A","","","0"
+"2017-03","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","46600411","A","","","0"
+"2017-03","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","762823","A","","","0"
+"2017-03","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1143576","B","","","0"
+"2017-03","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1248197","B","","","0"
+"2017-04","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","48439262","A","","","0"
+"2017-04","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","781790","A","","","0"
+"2017-04","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1221252","A","","","0"
+"2017-04","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1275214","A","","","0"
+"2017-05","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","54080243","A","","","0"
+"2017-05","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","792483","A","","","0"
+"2017-05","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1242495","A","","","0"
+"2017-05","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1250082","A","","","0"
+"2017-06","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","52933774","A","","","0"
+"2017-06","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","781777","A","","","0"
+"2017-06","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1232231","A","","","0"
+"2017-06","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1271067","A","","","0"
+"2017-07","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","51006137","A","","","0"
+"2017-07","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","758070","B","","","0"
+"2017-07","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1221851","A","","","0"
+"2017-07","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1363136","A","","","0"
+"2017-08","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","52131460","A","","","0"
+"2017-08","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","752272","B","","","0"
+"2017-08","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1241730","B","","","0"
+"2017-08","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1357169","B","","","0"
+"2017-09","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","50147316","A","","","0"
+"2017-09","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","774117","A","","","0"
+"2017-09","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1243184","A","","","0"
+"2017-09","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1346682","A","","","0"
+"2017-10","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","50677761","A","","","0"
+"2017-10","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","844374","A","","","0"
+"2017-10","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1331612","B","","","0"
+"2017-10","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1382513","B","","","0"
+"2017-11","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","51775741","A","","","0"
+"2017-11","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1096617","A","","","0"
+"2017-11","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1883790","A","","","0"
+"2017-11","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1460271","A","","","0"
+"2017-12","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","53666786","A","","","0"
+"2017-12","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1158489","B","","","0"
+"2017-12","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1933400","B","","","0"
+"2017-12","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1360936","B","","","0"
+"2018-01","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","41499846","A","","","0"
+"2018-01","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","904251","A","","","0"
+"2018-01","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1298402","A","","","0"
+"2018-01","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1446508","A","","","0"
+"2018-02","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","39531209","A","","","0"
+"2018-02","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","799192","A","","","0"
+"2018-02","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1113508","A","","","0"
+"2018-02","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1407101","A","","","0"
+"2018-03","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","48518117","A","","","0"
+"2018-03","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","930071","A","","","0"
+"2018-03","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1316846","A","","","0"
+"2018-03","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1427391","A","","","0"
+"2018-04","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","48650413","A","","","0"
+"2018-04","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","925509","A","","","0"
+"2018-04","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1367019","A","","","0"
+"2018-04","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1421957","A","","","0"
+"2018-05","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","57326238","A","","","0"
+"2018-05","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1020040","A","","","0"
+"2018-05","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1471741","B","","","0"
+"2018-05","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1453546","B","","","0"
+"2018-06","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","55225150","A","","","0"
+"2018-06","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1030781","A","","","0"
+"2018-06","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1476349","B","","","0"
+"2018-06","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1509107","B","","","0"
+"2018-07","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","52942449","A","","","0"
+"2018-07","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","947192","A","","","0"
+"2018-07","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1345606","A","","","0"
+"2018-07","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1509235","A","","","0"
+"2018-08","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","54280403","A","","","0"
+"2018-08","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1000931","A","","","0"
+"2018-08","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1464345","A","","","0"
+"2018-08","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1606597","A","","","0"
+"2018-09","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","51356806","A","","","0"
+"2018-09","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","966707","A","","","0"
+"2018-09","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1428020","A","","","0"
+"2018-09","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1545100","A","","","0"
+"2018-10","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","52544938","A","","","0"
+"2018-10","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1128017","A","","","0"
+"2018-10","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1630339","A","","","0"
+"2018-10","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1692523","A","","","0"
+"2018-11","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","52614964","A","","","0"
+"2018-11","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1456764","A","","","0"
+"2018-11","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","2295160","A","","","0"
+"2018-11","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1780846","A","","","0"
+"2018-12","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","53409374","A","","","0"
+"2018-12","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1384875","A","","","0"
+"2018-12","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","2039959","A","","","0"
+"2018-12","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1447383","A","","","0"
+"2019-01","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","42139449","A","","","0"
+"2019-01","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1063564","A","","","0"
+"2019-01","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1485282","A","","","0"
+"2019-01","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1647825","A","","","0"
+"2019-02","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","40174255","A","","","0"
+"2019-02","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","957511","A","","","0"
+"2019-02","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1329557","A","","","0"
+"2019-02","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1667065","A","","","0"
+"2019-03","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","49194406","A","","","0"
+"2019-03","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1119654","A","","","0"
+"2019-03","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1579907","A","","","0"
+"2019-03","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1691603","A","","","0"
+"2019-04","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","50956513","A","","","0"
+"2019-04","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1213951","A","","","0"
+"2019-04","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1657973","A","","","0"
+"2019-04","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1707242","A","","","0"
+"2019-05","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","57924706","A","","","0"
+"2019-05","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1408683","A","","","0"
+"2019-05","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1846131","A","","","0"
+"2019-05","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1773443","A","","","0"
+"2019-06","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","54475724","A","","","0"
+"2019-06","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1464061","A","","","0"
+"2019-06","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1936049","A","","","0"
+"2019-06","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1957233","A","","","0"
+"2019-07","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","54847265","A","","","0"
+"2019-07","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1319641","A","","","0"
+"2019-07","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1780666","A","","","0"
+"2019-07","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","2025664","A","","","0"
+"2019-08","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","54811239","A","","","0"
+"2019-08","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1335657","A","","","0"
+"2019-08","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1817070","A","","","0"
+"2019-08","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","2013677","A","","","0"
+"2019-09","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","51321540","A","","","0"
+"2019-09","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1457974","A","","","0"
+"2019-09","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1878803","A","","","0"
+"2019-09","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","2040861","A","","","0"
+"2019-10","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","52694347","A","","","0"
+"2019-10","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1429546","A","","","0"
+"2019-10","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1877598","A","","","0"
+"2019-10","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1963123","A","","","0"
+"2019-11","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","53454110","A","","","0"
+"2019-11","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1778232","A","","","0"
+"2019-11","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","2477045","A","","","0"
+"2019-11","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1950150","A","","","0"
+"2019-12","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","54550854","A","","","0"
+"2019-12","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1994515","A","","","0"
+"2019-12","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","2819549","A","","","0"
+"2019-12","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","2047742","A","","","0"
+"2020-01","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","43599569","A","","","0"
+"2020-01","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1287305","A","","","0"
+"2020-01","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1763378","A","","","0"
+"2020-01","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","1991173","A","","","0"
+"2020-02","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","43213338","A","","","0"
+"2020-02","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1236430","A","","","0"
+"2020-02","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","1689265","A","","","0"
+"2020-02","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","2161541","A","","","0"
+"2020-03","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","43621830","A","","","0"
+"2020-03","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1667146","A","","","0"
+"2020-03","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","2379817","A","","","0"
+"2020-03","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","2583398","A","","","0"
+"2020-04","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","34561639","A","","","0"
+"2020-04","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2110237","A","","","0"
+"2020-04","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3797262","B","","","0"
+"2020-04","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3944600","B","","","0"
+"2020-05","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","47827359","A","","","0"
+"2020-05","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2342069","A","","","0"
+"2020-05","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4163883","B","","","0"
+"2020-05","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3969844","B","","","0"
+"2020-06","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","57040626","A","","","0"
+"2020-06","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2163712","A","","","0"
+"2020-06","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3495999","B","","","0"
+"2020-06","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3547149","B","","","0"
+"2020-07","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","57484686","A","","","0"
+"2020-07","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1972900","A","","","0"
+"2020-07","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3034263","B","","","0"
+"2020-07","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3535532","B","","","0"
+"2020-08","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","54866191","A","","","0"
+"2020-08","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2130277","C","","","0"
+"2020-08","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3167082","B","","","0"
+"2020-08","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3579096","B","","","0"
+"2020-09","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","55903643","A","","","0"
+"2020-09","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2235689","A","","","0"
+"2020-09","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3244443","A","","","0"
+"2020-09","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3535832","A","","","0"
+"2020-10","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","57667259","A","","","0"
+"2020-10","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2110432","A","","","0"
+"2020-10","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3294369","A","","","0"
+"2020-10","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3451515","A","","","0"
+"2020-11","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","56286573","A","","","0"
+"2020-11","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2732849","A","","","0"
+"2020-11","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4374918","B","","","0"
+"2020-11","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3449369","B","","","0"
+"2020-12","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","56257661","A","","","0"
+"2020-12","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2993067","A","","","0"
+"2020-12","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4943411","A","","","0"
+"2020-12","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3599041","A","","","0"
+"2021-01","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","43424067","A","","","0"
+"2021-01","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2374748","A","","","0"
+"2021-01","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3962416","A","","","0"
+"2021-01","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","4384087","A","","","0"
+"2021-02","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","44687435","A","","","0"
+"2021-02","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2143400","A","","","0"
+"2021-02","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3437177","A","","","0"
+"2021-02","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","4288378","A","","","0"
+"2021-03","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","56853111","A","","","0"
+"2021-03","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2572559","A","","","0"
+"2021-03","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4027641","A","","","0"
+"2021-03","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","4257058","A","","","0"
+"2021-04","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","55725607","A","","","0"
+"2021-04","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2405730","A","","","0"
+"2021-04","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4158847","A","","","0"
+"2021-04","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","4214361","A","","","0"
+"2021-05","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","58819689","A","","","0"
+"2021-05","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2383447","A","","","0"
+"2021-05","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4521780","A","","","0"
+"2021-05","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","4154410","A","","","0"
+"2021-06","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","61003294","A","","","0"
+"2021-06","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2432812","A","","","0"
+"2021-06","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4049615","A","","","0"
+"2021-06","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","4000327","A","","","0"
+"2021-07","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","60779057","A","","","0"
+"2021-07","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1891409","A","","","0"
+"2021-07","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3026181","A","","","0"
+"2021-07","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3486718","A","","","0"
+"2021-08","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","59472964","A","","","0"
+"2021-08","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2062944","A","","","0"
+"2021-08","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3201736","A","","","0"
+"2021-08","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3564677","A","","","0"
+"2021-09","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","58024865","A","","","0"
+"2021-09","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2251940","A","","","0"
+"2021-09","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3421731","A","","","0"
+"2021-09","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3631307","A","","","0"
+"2021-10","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","59604467","A","","","0"
+"2021-10","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2322866","A","","","0"
+"2021-10","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3525996","A","","","0"
+"2021-10","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3619531","A","","","0"
+"2021-11","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","60666057","A","","","0"
+"2021-11","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2874663","A","","","0"
+"2021-11","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4519610","A","","","0"
+"2021-11","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3519879","A","","","0"
+"2021-12","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","61040423","A","","","0"
+"2021-12","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2871289","A","","","0"
+"2021-12","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","4535228","A","","","0"
+"2021-12","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3267226","A","","","0"
+"2022-01","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","48567306","A","","","0"
+"2022-01","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","2297575","A","","","0"
+"2022-01","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","3147337","B","","","0"
+"2022-01","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3426323","B","","","0"
+"2022-02","Canada","2016A000011124","Retail trade, unadjusted
+ [44-453]","Dollars","81","thousands","3","v108795018","1.1","47964605","A","","","0"
+"2022-02","Canada","2016A000011124","Electronic shopping and mail-order houses, unadjusted
+ [45411]","Dollars","81","thousands","3","v108795019","1.2","1950675","B","","","0"
+"2022-02","Canada","2016A000011124","Retail E-commerce sales, unadjusted
+","Dollars","81","thousands","3","v108795020","1.3","2643292","B","","","0"
+"2022-02","Canada","2016A000011124","Retail E-commerce sales, seasonally adjusted
+","Dollars","81","thousands","3","v1257881695","1.4","3267756","B","","","0"
