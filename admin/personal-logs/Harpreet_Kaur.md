@@ -7,7 +7,7 @@
 | May03 | 8     | Meeting with project partners and understanding the project details. Additionally, understanding the shared literature from the clients. |            
 | May04 | 8.5     |  Proposal writing and data understanding                                    |
 | May05 | 7     |  Proposal finalizing and presentation discussion                                        |
-| May0X | X     |                                          |
+| May06 | 6     | Proposal editted as per comments, presentation made, data reviewd and fetching data in python                                         |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
