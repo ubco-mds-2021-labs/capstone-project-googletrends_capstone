@@ -1,0 +1,76 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Gross domestic product, expenditure-based, Canada, quarterly","36100104","380-0064","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610010401",,"CURRENT - a cube available to the public and that is current","Quarterly","1961-01-01","2021-10-01","4",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Prices",,""
+"3","Seasonal adjustment",,""
+"4","Estimates",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Chained (2012) dollars","","1","","",,
+"2","Current prices","","2","","",,
+"2","Contributions to percent change","","3","","",,
+"2","Contributions to percent change, annualized","","4","","",,
+"2","Chained (2007) dollars","","5","","t",,
+"3","Seasonally adjusted at annual rates","","1","","",,
+"3","Unadjusted","","2","","",,
+"4","Household final consumption expenditure","","2","1","",,
+"4","Non-profit institutions serving households' final consumption expenditure","","8","1","",,
+"4","General governments final consumption expenditure","","9","1","",,
+"4","Goods","","3","2","",,
+"4","Services","","7","2","",,
+"4","Durable goods","","4","3","",,
+"4","Semi-durable goods","","5","3","",,
+"4","Non-durable goods","","6","3","",,
+"4","Business gross fixed capital formation","","11","10","",,
+"4","Non-profit institutions serving households' gross fixed capital formation","","17","10","",,
+"4","General governments gross fixed capital formation","","18","10","",,
+"4","Residential structures","","12","11","",,
+"4","Non-residential structures, machinery and equipment","","13","11","",,
+"4","Intellectual property products","","16","11","",,
+"4","Non-residential structures","","14","13","",,
+"4","Machinery and equipment","","15","13","",,
+"4","Of which: business investment in inventories","","20","19","",,
+"4","Non-farm","","21","20","",,
+"4","Farm","","22","20","",,
+"4","Exports of goods","","24","23","",,
+"4","Exports of services","","25","23","",,
+"4","Imports of goods","","27","26","",,
+"4","Imports of services","","28","26","",,
+"4","Final consumption expenditure","","1","","",,
+"4","Gross fixed capital formation","","10","","",,
+"4","Investment in inventories","","19","","",,
+"4","Exports of goods and services","","23","","",,
+"4","Less: imports of goods and services","","26","","",,
+"4","Statistical discrepancy","","29","","",,
+"4","Gross domestic product at market prices","","30","","",,
+"4","Final domestic demand","","31","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"1901","National Gross Domestic Product by Income and by Expenditure Accounts"
+
+"Subject Code","Subject Name"
+"36","Economic accounts"
+
+"Note ID",Note
+
+"Correction ID","Correction Date","Correction Note"
