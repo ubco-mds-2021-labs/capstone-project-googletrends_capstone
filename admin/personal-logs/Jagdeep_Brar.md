@@ -8,7 +8,7 @@
 | May04 | 9     |           Had our group meeting and splitted work among three of us, started working on proposal                               |
 | May05 | 8     | Worked on proposal, prepared and sent first draft to project partners, and added weekly updates.                                        |
 | May06 | 7     |    Addressed comments on proposal, explored GDP data, started working on data loading and cleaning                                      |
-| May0X | X     |                                          |
+| May09 | 8     |    got time series fro GDP and created function to get pytrends data                                      |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
