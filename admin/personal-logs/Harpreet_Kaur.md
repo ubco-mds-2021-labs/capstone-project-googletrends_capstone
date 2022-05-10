@@ -8,9 +8,9 @@
 | May04 | 8.5     |  Proposal writing and data understanding                                    |
 | May05 | 7     |  Proposal finalizing and presentation discussion                                        |
 | May06 | 6     | Proposal editted as per comments, presentation made, data reviewd and fetching data in python                                         |
-| May0X | X     |                                          |
-| May0X | X     |                                          |
-| May0X | X     |                                          |
+| May07 | 0     |      OFF                                    |
+| May08 | 0     |         OFF                                 |
+| May09 | 9     |  Data wrangling, looking at Pytrends documentation, understanding how to extract data from the python Pytrends library. Looking at the time series plot of the related keywords in regard to the ecommercies retail sales category.                                  |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
