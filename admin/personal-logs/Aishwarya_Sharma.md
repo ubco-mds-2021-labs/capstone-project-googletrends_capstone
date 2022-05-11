@@ -9,7 +9,7 @@
 | May05 | 8     | Completed the proposal document and submitted for review. Finished all the left documentations like MOM, Code of conduct etc.|
 | May06 | 9     | Explored data set for analysis, worked on weekly presentation, loaded retail data set and worked for its cleaning, worked upon the review comments for the proposal.  |
 | May09 | 9     | Cleaned and wrangled data set for retail trade sales, had meeting with the instructors, checked how to fetch google trend data, wrote function for getting trends as per keywords and categories |
-| May08 | X     |                                          |
+| May10 | 8     | Searched for keywords and categories required for retails trade sales. Wrote code for creating dictionaries for related top queries and topics for specified category code.|
 | May09 | X     |                                          |
 | May10 | X     |                                          |
 | May11 | X     |                                          |
