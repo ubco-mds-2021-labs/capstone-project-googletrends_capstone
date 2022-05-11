@@ -9,7 +9,7 @@
 | May05 | 8     | Worked on proposal, prepared and sent first draft to project partners, and added weekly updates.                                        |
 | May06 | 7     |    Addressed comments on proposal, explored GDP data, started working on data loading and cleaning                                      |
 | May09 | 8     |    got time series fro GDP and created function to get pytrends data                                      |
-| May0X | X     |                                          |
+| May10 | 9     |      selected categories and related keywords and code to extarct times series for categories                                    |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
