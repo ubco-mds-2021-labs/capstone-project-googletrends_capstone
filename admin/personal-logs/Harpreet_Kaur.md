@@ -11,7 +11,7 @@
 | May07 | 0     |      OFF                                    |
 | May08 | 0     |         OFF                                 |
 | May09 | 9     |  Data wrangling, looking at Pytrends documentation, understanding how to extract data from the python Pytrends library. Looking at the time series plot of the related keywords in regard to the ecommercies retail sales category.                                  |
-| May0X | X     |                                          |
+| May10 | 8.5     | Identifying category and subcategory for ecommerce trade retail sales. Keywords extraction for the category and subcategory.                                         |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
