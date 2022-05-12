@@ -1,9 +1,34 @@
-﻿CatNo,Category,SubCatNo,SubCategory,Keywords
-340,E-Commerce Services,280,Merchant Services & Payment Systems,Shopify
-,,,,ebusiness
-,,,,Business to business (B2B)
-,,,,Business to consumer (B2C)
-,,,,Consumer to consumer
-,,,,Consumer to business
-,,,,digital medium
-,,,, ecommerceDB
+﻿SubcatNo,Keywords
+280,Uber
+280,DoorDash
+280,SkipTheDishes
+280,Just Eat
+280,Walmart
+280,Costco
+280,Real Canadian Superstore
+280,alibaba
+280,newegg canada
+280,ebay
+280,craglist
+280,kijiji
+280,Canadian Tire
+280,Home Depot
+280,Canadian Tire
+280,Best Buy
+280,Shopify
+280,Apple
+280,Gap
+280,Old Navy
+280,Joe Fresh
+280,Sephora
+280,eventbrite
+280,Sportchek
+280,square online
+280,PayPal
+280,Western Union
+280,TD Canada Trust
+280,Scotiabank
+280,Royal Bank of Canada
+280,Google Pay
+280,Apple Pay
+280,Mastercard
