@@ -11,8 +11,8 @@
 | May07 | 0     |      OFF                                    |
 | May08 | 0     |         OFF                                 |
 | May09 | 9     |  Data wrangling, looking at Pytrends documentation, understanding how to extract data from the python Pytrends library. Looking at the time series plot of the related keywords in regard to the ecommercies retail sales category.                                  |
-| May10 | 8.5     | Identifying category and subcategory for ecommerce trade retail sales. Keywords extraction for the category and subcategory.                                         |
-| May0X | X     |                                          |
+| May10 | 8.5   | Identifying category and subcategory for ecommerce trade retail sales. Keywords extraction for the category and subcategory.                   |
+| May11 | 8     | Applied Testing of stationarity on time series, Performed decomposition of the time series, performing normalization on the E-commerces trade sales and the PyTrends. Lastly, applied a test ARIMA family model to see its application in Python.                       |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
