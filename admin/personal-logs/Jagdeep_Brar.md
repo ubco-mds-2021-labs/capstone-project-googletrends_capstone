@@ -10,7 +10,7 @@
 | May06 | 7     |    Addressed comments on proposal, explored GDP data, started working on data loading and cleaning                                      |
 | May09 | 8     |    got time series fro GDP and created function to get pytrends data                                      |
 | May10 | 9     |      selected categories and related keywords and code to extarct times series for categories                                    |
-| May0X | X     |                                          |
+| May11 | 8     | Created dataframe of timeseries, working on making time series stationary, added code to remove downward trend                                         |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
