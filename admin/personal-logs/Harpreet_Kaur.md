@@ -12,7 +12,7 @@
 | May10 | 8.5   | Identifying category and subcategory for ecommerce trade retail sales. Keywords extraction for the category and subcategory.                   |
 | May11 | 9     | Applied Testing of stationarity on time series. Performed decomposition of the time series, and normalization on the E-commerces trade sales and the PyTrends. Lastly, applied a test ARIMA family model to see its application in Python.                       |
 | May12 | 7     | Meeting with the client, modified the work as per the suggestions. Keywords identified and files modified for better efficiency in terms of optimization.|
-| May0X | X     |                                          |
+| May13 | 9     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
