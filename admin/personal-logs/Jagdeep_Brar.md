@@ -12,7 +12,7 @@
 | May10 | 9     |      selected categories and related keywords and code to extarct times series for categories                                    |
 | May11 | 8     | Created dataframe of timeseries, working on making time series stationary, added code to remove downward trend                                         |
 | May12 | 8     |        hade meeting with project partners, worked on making time series stationary and extracted more data of google trends                                  |
-| May0X | X     |                                          |
+| May14 | 6     |       Created functions to get GDP data in required form and for stationarity transformations                                  |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
