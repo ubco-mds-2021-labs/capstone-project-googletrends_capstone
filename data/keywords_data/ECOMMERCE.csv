@@ -1,9 +1,33 @@
-﻿CatNo,Category,SubCatNo,SubCategory,Keywords
-340,E-Commerce Services,280,Merchant Services & Payment Systems,Shopify
-,,,,ebusiness
-,,,,Business to business (B2B)
-,,,,Business to consumer (B2C)
-,,,,Consumer to consumer
-,,,,Consumer to business
-,,,,digital medium
-,,,, ecommerceDB
+﻿SubcatNo,Keyword
+340,Uber
+340,DoorDash
+340,SkipTheDishes
+340,Just Eat
+340,Walmart
+340,Costco
+340,Real Canadian Superstore
+340,alibaba
+340,newegg canada
+340,ebay
+340,craglist
+340,kijiji
+340,Canadian Tire
+340,Home Depot
+340,Best Buy
+340,Shopify
+340,Apple
+340,Gap
+340,Old Navy
+340,Joe Fresh
+340,Sephora
+340,eventbrite
+340,Sportchek
+340,square online
+340,PayPal
+340,Western Union
+340,TD Canada Trust
+340,Scotiabank
+340,Royal Bank of Canada
+340,Google Pay
+340,Apple Pay
+340,Mastercard
