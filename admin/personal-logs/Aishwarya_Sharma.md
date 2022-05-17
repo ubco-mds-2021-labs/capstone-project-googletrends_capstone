@@ -13,7 +13,7 @@
 | May11 | 9     |Added code for checking the time series staionarity. Wrote the trend data, queries, topics into csv and json files. Also added the code for making the data frame normal using z-score criteria.|
 | May12 | 8     | Had meeting with the partners. Wrote code for getting google trends data for keywords, worked on removing seasonality. |
 | May13 | 7     | Researched on different models to be fitted on our stationary time series data. In particular looked for DFM models|
-| May16 | X     |                                          |
+| May16 | 9     | Added code to make google trends data and corresponding keywords stationary by removing trends, seasonality, volatility |
 | May17 | X     |                                          |
 | May18 | X     |                                          |
 | May19 | X     |                                          |
