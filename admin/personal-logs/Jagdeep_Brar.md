@@ -13,8 +13,8 @@
 | May11 | 8     | Created dataframe of timeseries, working on making time series stationary, added code to remove downward trend                                         |
 | May12 | 8     |        hade meeting with project partners, worked on making time series stationary and extracted more data of google trends                                  |
 | May14 | 6     |       Created functions to get GDP data in required form and for stationarity transformations                                  |
-| May0X | X     |                                          |
-| May0X | X     |                                          |
+| May16 | 4     |  Research                                        |
+| May17 | 8     |  Research of different models, reading and trying Dynamic Factor model                                        |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
