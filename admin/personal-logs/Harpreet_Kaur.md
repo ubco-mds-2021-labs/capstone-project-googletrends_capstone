@@ -13,8 +13,8 @@
 | May11 | 9     | Applied Testing of stationarity on time series. Performed decomposition of the time series, and normalization on the E-commerces trade sales and the PyTrends. Lastly, applied a test ARIMA family model to see its application in Python.                       |
 | May12 | 7     | Meeting with the client, modified the work as per the suggestions. Keywords identified and files modified for better efficiency in terms of optimization.|
 | May13 | 10    | Functions of keywords time series extraction, decomposition, stationarity for model fitting next week                                      |
-| May0X | X     |                                          |
-| May0X | X     |                                          |
+| May16 | 9     | Keywords time series into the required format. Stationarity, Normalization and rescaling of the time series                                       |
+| May17 | 8     | Meeting with prof. Reading about the PCA on time series and applied on it.                                       |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | ----- | ----- | -------------- End of May -------------- |
