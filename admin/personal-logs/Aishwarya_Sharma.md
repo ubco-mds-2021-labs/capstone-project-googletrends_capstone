@@ -14,7 +14,7 @@
 | May12 | 8     | Had meeting with the partners. Wrote code for getting google trends data for keywords, worked on removing seasonality. |
 | May13 | 7     | Researched on different models to be fitted on our stationary time series data. In particular looked for DFM models|
 | May16 | 9     | Added code to make google trends data and corresponding keywords stationary by removing trends, seasonality, volatility |
-| May17 | X     |                                          |
+| May17 | 8     | Had meeting with instructor. Applied ARIMA model to the retail sales trade data set and went through other models understanding as well. |
 | May18 | X     |                                          |
 | May19 | X     |                                          |
 | May20 | X     |                                          |
