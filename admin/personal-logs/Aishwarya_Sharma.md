@@ -12,13 +12,13 @@
 | May10 | 8     | Searched for keywords and categories required for retails trade sales. Wrote code for creating dictionaries for related top queries and topics for specified category code.|
 | May11 | 9     |Added code for checking the time series staionarity. Wrote the trend data, queries, topics into csv and json files. Also added the code for making the data frame normal using z-score criteria.|
 | May12 | 8     | Had meeting with the partners. Wrote code for getting google trends data for keywords, worked on removing seasonality. |
-| May11 | X     |                                          |
-| May12 | X     |                                          |
-| May13 | X     |                                          |
-| May14 | X     |                                          |
-| May15 | X     |                                          |
-| May16 | X     |                                          |
+| May13 | 7     | Researched on different models to be fitted on our stationary time series data. In particular looked for DFM models|
+| May16 | 9     | Added code to make google trends data and corresponding keywords stationary by removing trends, seasonality, volatility |
 | May17 | X     |                                          |
+| May18 | X     |                                          |
+| May19 | X     |                                          |
+| May20 | X     |                                          |
+| May23 | X     |                                          |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
