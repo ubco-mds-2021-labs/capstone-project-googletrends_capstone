@@ -15,7 +15,7 @@
 | May14 | 6     |       Created functions to get GDP data in required form and for stationarity transformations                                  |
 | May16 | 4     |  Research                                        |
 | May17 | 8     |  Research of different models, reading and trying Dynamic Factor model.                                       |
-| May0X | X     |                                          |
+| May18 | 8     |  Resarch and model fitting for GDP, also worked on feature selection                                        |
 | May0X | X     |                                          |
 | May0X | X     |                                          |
 | May0X | X     |                                          |

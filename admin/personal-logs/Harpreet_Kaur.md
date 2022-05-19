@@ -14,8 +14,8 @@
 | May12 | 7     | Meeting with the client, modified the work as per the suggestions. Keywords identified and files modified for better efficiency in terms of optimization.|
 | May13 | 10    | Functions of keywords time series extraction, decomposition, stationarity for model fitting next week                                      |
 | May16 | 9     | Keywords time series into the required format. Stationarity, Normalization and rescaling of the time series                                       |
-| May17 | 8     | Meeting with prof. Reading about the PCA on time series and applied on it.                                       |
-| May0X | X     |                                          |
+| May17 | 8.5   | Meeting with prof. Reading about the PCA on time series and applied on it.                                       |
+| May18 | 10.5  | Research and fitting model on the E-commerce dataset. Forecast from the ARIMA model.                                  |
 | May0X | X     |                                          |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
