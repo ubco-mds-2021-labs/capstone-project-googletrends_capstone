@@ -25,5 +25,5 @@
 * Wrote code for model fitting and residual analysis
 * Had meeting with the project partners 'Statistics Canada' on Thursday
 * Followed their suggestions and improved the fitted base model
-* Finally, wrote function for the roll back prediction
+* Finally, wrote function for the rolling prediction
 
