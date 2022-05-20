@@ -18,5 +18,12 @@
 * Followed their suggestions and compared the downward trend of the data.
 * Finally, saved the required form of data for all the three macro economic factors on which model could be applied
 
-
+## Week 3
+* Finished with Data Wrangling for the time series dataset
+* Understand the application of models on time series dataset
+* Added code for removing the trend,bias and seasonality component of the time series data (Pytrends and the Stats Canada)
+* Wrote code for model fitting and residual analysis
+* Had meeting with the project partners 'Statistics Canada' on Thursday
+* Followed their suggestions and improved the fitted base model
+* Finally, wrote function for the roll back prediction
 
