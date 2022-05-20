@@ -16,7 +16,8 @@
 | May16 | 9     | Keywords time series into the required format. Stationarity, Normalization and rescaling of the time series                                       |
 | May17 | 8.5   | Meeting with prof. Reading about the PCA on time series and applied on it.                                       |
 | May18 | 10.5  | Research and fitting model on the E-commerce dataset. Forecast from the ARIMA model.                                  |
-| May0X | X     |                                          |
+| May19 | 6     | Meeting with the clients, worked on the suggestions. ARIMA model rolling predictions.                                     |
+| May20 | 8     | Improved ARIMA model fitting and applied Lasso model.                                        |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
