@@ -16,7 +16,7 @@
 | May16 | 9     | Added code to make google trends data and corresponding keywords stationary by removing trends, seasonality, volatility |
 | May17 | 8     | Had meeting with instructor. Applied ARIMA model to the retail sales trade data set and went through other models understanding as well. |
 | May18 | 8     | Implemented ARIMA and DFM models for retail trade sales. Wrote code for joining predictors DFs and training testing splitting.|
-| May19 | X     |                                          |
+| May19 | 8.5  | Had meeting with Statistics Canada. Wrote code for rolling predictions and calculating diagnostics. |
 | May20 | X     |                                          |
 | May23 | X     |                                          |
 | ----- | ----- | -------------- End of May -------------- |
