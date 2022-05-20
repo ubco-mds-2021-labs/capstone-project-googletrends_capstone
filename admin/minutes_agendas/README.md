@@ -34,3 +34,21 @@ Minutes of meetings are as mentioned below:
 3. Reviews collected on the process we had followed for the decomposition of the time series.
 4. Brief discussion over the techniques we would be following for working ahead with our time series.
 5. Discussion over the plan for the next week 
+
+
+## Meeting on May 20, 2022
+
+### Agenda:
+
+Work review and discussion about next week`s plan.
+
+### Minutes of Meeting:
+
+Minutes of meetings are as mentioned below:
+
+1. Provided a detailed tour about the work done in this week.
+2. Discussed the extracted keywords list.
+3. Discussed the data wrangling and the components of time series.
+4. Presented our base model - ARIMA 
+5. Discussion on the nowcasting interfered from the base model
+6. Finalized the model that would be fitted in the following week.
