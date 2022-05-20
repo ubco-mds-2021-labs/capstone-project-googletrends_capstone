@@ -17,7 +17,7 @@
 | May17 | 8     | Had meeting with instructor. Applied ARIMA model to the retail sales trade data set and went through other models understanding as well. |
 | May18 | 8     | Implemented ARIMA and DFM models for retail trade sales. Wrote code for joining predictors DFs and training testing splitting.|
 | May19 | 8.5  | Had meeting with Statistics Canada. Wrote code for rolling predictions and calculating diagnostics. |
-| May20 | X     |                                          |
+| May20 | 7.5 | Code for making retail trade sales data predictions accurate. Created presentations for the weekly work.|
 | May23 | X     |                                          |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
