@@ -39,14 +39,14 @@
         "Trailer",
         "Sales",
         "Caravan",
-        "Living van"
+        "Travel"
     ],
     "1013": [
         "Car",
         "Classic car",
         "Sales",
-        "Auction",
-        "Classic"
+        "Classic",
+        "Auction"
     ],
     "1214": [
         "Truck",
@@ -74,7 +74,7 @@
         "Smart",
         "Smart",
         "Door",
-        "Canada"
+        "Lock"
     ],
     "273": [
         "Motorcycle",
@@ -121,8 +121,8 @@
     "1294": [
         "Driving",
         "Traffic ticket",
-        "Ontario",
         "Speed limit",
+        "Ontario",
         "Test"
     ],
     "170": [
@@ -235,7 +235,7 @@
         "Gasoline",
         "GasBuddy",
         "Costco",
-        "Gas"
+        "Costco Gasoline"
     ],
     "38": [
         "Insurance",
