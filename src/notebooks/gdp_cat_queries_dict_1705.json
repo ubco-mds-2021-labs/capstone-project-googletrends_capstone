@@ -1,0 +1,566 @@
+{
+    "569": [
+        "cineplex",
+        "cinema"
+    ],
+    "23": [
+        "dance",
+        "theatre"
+    ],
+    "47": [
+        "ford",
+        "honda"
+    ],
+    "815": [
+        "honda",
+        "ford"
+    ],
+    "170": [
+        "license",
+        "driving"
+    ],
+    "249": [
+        "blue cross",
+        "desjardins"
+    ],
+    "71": [
+        "pizza pizza",
+        "pizza"
+    ],
+    "276": [
+        "restaurant",
+        "restaurants"
+    ],
+    "634": [
+        "clinic",
+        "dr"
+    ],
+    "250": [
+        "hospital",
+        "hopital"
+    ],
+    "168": [
+        "fire",
+        "emergency"
+    ],
+    "437": [
+        "depression",
+        "anxiety"
+    ],
+    "11": [
+        "home depot",
+        "ikea"
+    ],
+    "29": [
+        "mls",
+        "real estate"
+    ],
+    "96": [
+        "remax",
+        "real"
+    ],
+    "18": [
+        "kijiji",
+        "walmart"
+    ],
+    "67": [
+        "hotel",
+        "air canada"
+    ],
+    "179": [
+        "hotel",
+        "hotels"
+    ],
+    "5": [
+        "google",
+        "apple"
+    ],
+    "68": [
+        "shoes",
+        "boots"
+    ],
+    "78": [
+        "xbox",
+        "videotron"
+    ],
+    "696": [
+        "or",
+        "bijoux"
+    ],
+    "329": [
+        "acces d",
+        "cra"
+    ],
+    "95": [
+        "staples",
+        "desk"
+    ],
+    "423": [
+        "bankruptcy",
+        "hollywoodpq"
+    ],
+    "279": [
+        "credit",
+        "mortgage"
+    ],
+    "1160": [
+        "business",
+        "pret"
+    ],
+    "813": [
+        "student",
+        "tuition"
+    ],
+    "466": [
+        "mortgage",
+        "calculator"
+    ],
+    "468": [
+        "lease",
+        "calculator"
+    ],
+    "46": [
+        "farm",
+        "plant"
+    ],
+    "750": [
+        "forest",
+        "forestry"
+    ],
+    "747": [
+        "salmon",
+        "fish"
+    ],
+    "121": [
+        "circulaire",
+        "iga"
+    ],
+    "123": [
+        "cigarettes",
+        "smoke"
+    ],
+    "697": [
+        "shoes",
+        "boots"
+    ],
+    "1176": [
+        "printing",
+        "vistaprint"
+    ],
+    "1268": [
+        "gas",
+        "gas prices"
+    ],
+    "288": [
+        "bottle depot",
+        "plastic"
+    ],
+    "248": [
+        "pharmacy",
+        "side effects"
+    ],
+    "30": [
+        "hp",
+        "kingston"
+    ],
+    "287": [
+        "generator",
+        "valve"
+    ],
+    "612": [
+        "oscar",
+        "car wash"
+    ],
+    "13": [
+        "google",
+        "mail"
+    ],
+    "31": [
+        "java",
+        "windows"
+    ],
+    "7": [
+        "rbc",
+        "td"
+    ],
+    "38": [
+        "insurance",
+        "desjardins"
+    ],
+    "969": [
+        "lawyer",
+        "law"
+    ],
+    "477": [
+        "architecture",
+        "architects"
+    ],
+    "25": [
+        "marketing",
+        "circulaire"
+    ],
+    "380": [
+        "vet",
+        "animal hospital"
+    ],
+    "1010": [
+        "vacations",
+        "voyage"
+    ],
+    "726": [
+        "acces",
+        "acces d"
+    ],
+    "76": [
+        "canada",
+        "passport"
+    ],
+    "74": [
+        "school",
+        "college"
+    ],
+    "256": [
+        "clinic",
+        "dr"
+    ],
+    "508": [
+        "chomage",
+        "assurance emploi"
+    ],
+    "20": [
+        "nhl",
+        "hockey"
+    ],
+    "1199": [
+        "ordre",
+        "abstract"
+    ],
+    "144": [
+        "hair removal",
+        "laser"
+    ],
+    "748": [
+        "tractor",
+        "deere"
+    ],
+    "48": [
+        "construction",
+        "doors"
+    ],
+    "255": [
+        "clinique",
+        "clinique m\u00e9dicale"
+    ],
+    "50": [
+        "canada",
+        "tracking"
+    ],
+    "664": [
+        "logistics",
+        "distribution"
+    ],
+    "60": [
+        "jobs",
+        "job"
+    ],
+    "802": [
+        "jobs",
+        "developer"
+    ],
+    "621": [
+        "canning",
+        "kraft"
+    ],
+    "1140": [
+        "boat",
+        "kayak"
+    ],
+    "841": [
+        "superstore",
+        "walmart"
+    ],
+    "289": [
+        "trailers",
+        "trucks"
+    ],
+    "665": [
+        "ship",
+        "traversier"
+    ],
+    "662": [
+        "air",
+        "air france"
+    ],
+    "354": [
+        "canada",
+        "customs"
+    ],
+    "666": [
+        "rail",
+        "railway"
+    ],
+    "1150": [
+        "canada",
+        "tracking"
+    ],
+    "277": [
+        "beer",
+        "lcbo"
+    ],
+    "650": [
+        "doors",
+        "portail"
+    ],
+    "651": [
+        "bridge",
+        "pont"
+    ],
+    "652": [
+        "contractors",
+        "contracting"
+    ],
+    "158": [
+        "home depot",
+        "paint"
+    ],
+    "1143": [
+        "netflix",
+        "dvd"
+    ],
+    "70": [
+        "gift",
+        "birthday"
+    ],
+    "271": [
+        "vacuum",
+        "appliances"
+    ],
+    "270": [
+        "furniture",
+        "ikea"
+    ],
+    "794": [
+        "garmin",
+        "gps"
+    ],
+    "233": [
+        "hydro",
+        "gas"
+    ],
+    "473": [
+        "auto",
+        "cars"
+    ],
+    "1339": [
+        "carpool",
+        "ride"
+    ],
+    "932": [
+        "fifa",
+        "madden"
+    ],
+    "882": [
+        "dog",
+        "pet"
+    ],
+    "94": [
+        "yoga",
+        "fitness"
+    ],
+    "293": [
+        "wedding",
+        "bridal"
+    ],
+    "205": [
+        "car rental",
+        "taxi"
+    ],
+    "208": [
+        "niagara falls",
+        "toronto"
+    ],
+    "1081": [
+        "rentals",
+        "cottage"
+    ],
+    "73": [
+        "walmart",
+        "store"
+    ],
+    "1188": [
+        "garmin",
+        "gps"
+    ],
+    "185": [
+        "fashion",
+        "model"
+    ],
+    "610": [
+        "truck",
+        "ford"
+    ],
+    "206": [
+        "cruise",
+        "cruises"
+    ],
+    "1003": [
+        "backpack",
+        "luggage"
+    ],
+    "918": [
+        "pizza pizza",
+        "pizza"
+    ],
+    "355": [
+        "livres",
+        "librairie"
+    ],
+    "145": [
+        "spa",
+        "massage"
+    ],
+    "894": [
+        "theatre",
+        "macbeth"
+    ],
+    "960": [
+        "emploi",
+        "quebec emploi"
+    ],
+    "961": [
+        "resume",
+        "cover letter"
+    ],
+    "378": [
+        "rent",
+        "for rent"
+    ],
+    "465": [
+        "insurance",
+        "home insurance"
+    ],
+    "1164": [
+        "survival",
+        "canada"
+    ],
+    "784": [
+        "finance",
+        "dow"
+    ],
+    "1209": [
+        "news",
+        "bbc"
+    ],
+    "396": [
+        "election",
+        "election results"
+    ],
+    "408": [
+        "toronto",
+        "news"
+    ],
+    "832": [
+        "flooring",
+        "carpet"
+    ],
+    "952": [
+        "pool",
+        "piscine"
+    ],
+    "1139": [
+        "td",
+        "monnex"
+    ],
+    "107": [
+        "stock",
+        "tsx"
+    ],
+    "903": [
+        "ttc",
+        "rrsp"
+    ],
+    "343": [
+        "sql",
+        "access"
+    ],
+    "77": [
+        "paypal",
+        "sql"
+    ],
+    "278": [
+        "canada",
+        "tax"
+    ],
+    "1300": [
+        "omnivox",
+        "cegep"
+    ],
+    "730": [
+        "git",
+        "github"
+    ],
+    "341": [
+        "salesforce",
+        "crm"
+    ],
+    "334": [
+        "expo",
+        "exhibition"
+    ],
+    "314": [
+        "security",
+        "avg"
+    ],
+    "718": [
+        "outsourcing",
+        "accenture"
+    ],
+    "728": [
+        "server",
+        "servers"
+    ],
+    "1162": [
+        "cra",
+        "cra login"
+    ],
+    "53": [
+        "godaddy",
+        "domain"
+    ],
+    "342": [
+        "erp",
+        "dashboard"
+    ],
+    "1159": [
+        "management",
+        "project"
+    ],
+    "1214": [
+        "trailers",
+        "trucks"
+    ],
+    "670": [
+        "homemade",
+        "potash"
+    ],
+    "12": [
+        "acces d",
+        "canada post"
+    ],
+    "566": [
+        "fabric fabric",
+        "fabric"
+    ],
+    "672": [
+        "glue",
+        "epoxy"
+    ],
+    "673": [
+        "couleur",
+        "couleurs"
+    ],
+    "49": [
+        "covid",
+        "manufacturing"
+    ]
+}

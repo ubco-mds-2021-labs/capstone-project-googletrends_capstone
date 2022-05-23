@@ -9,4 +9,21 @@
 * Prepared first draft of proposal and sent it to StatCan for review
 
 
+## Week 2
+* Finished with Data Cleaning for the dataset given by StatsCan
+* Fetched keywords from Google Trends and saved them in a required format
+* Added code for checking the stationarity of the time series data
+* Wrote code for making the data stationary if it is not.
+* Had meeting with the project partners 'Statistics Canada' on Thursday
+* Followed their suggestions and compared the downward trend of the data.
+* Finally, saved the required form of data for all the three macro economic factors on which model could be applied
+
+## Week 3
+* Finished with Data Wrangling for the time series dataset
+* Understand the application of models on time series dataset
+* Added code for removing the trend,bias and seasonality component of the time series data (Pytrends and the Stats Canada)
+* Wrote code for model fitting and residual analysis
+* Had meeting with the project partners 'Statistics Canada' on Thursday
+* Followed their suggestions and improved the fitted base model
+* Finally, wrote function for the rolling prediction
 
