@@ -7,8 +7,8 @@
         "sobeys"
     ],
     "47": [
-        "ford",
         "honda",
+        "ford",
         "toyota",
         "dodge",
         "nissan"
@@ -136,15 +136,15 @@
         "apk",
         "automotive",
         "mechanic",
-        "tools",
-        "auto repair"
+        "auto repair",
+        "tools"
     ],
     "89": [
         "tire",
         "tires",
+        "parts",
         "garmin",
-        "auto parts",
-        "rims"
+        "auto parts"
     ],
     "473": [
         "auto",
@@ -157,8 +157,8 @@
         "2010",
         "home show",
         "car show",
-        "auto show",
-        "convention centre"
+        "convention centre",
+        "auto show"
     ],
     "121": [
         "circulaire",
@@ -234,7 +234,7 @@
         "gas",
         "gas prices",
         "costco",
-        "gas costco",
+        "costco gas",
         "gas buddy"
     ],
     "38": [
