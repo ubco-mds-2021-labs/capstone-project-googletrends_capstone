@@ -17,8 +17,8 @@
 | May17 | 8     |  Research of different models, reading and trying Dynamic Factor model.                                       |
 | May18 | 8     |  Resarch and model fitting for GDP, also worked on feature selection                                        |
 | May19 | 8.5   |   Model fitting for GDP prediction                                       |
-| May0X | X     |                                          |
-| May0X | X     |                                          |
+| May20 | 7     |  Variable selection and model fitting                                       |
+| May22 | 8     |     Finalized ARIMA model and started workiing with LASSO                    |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
