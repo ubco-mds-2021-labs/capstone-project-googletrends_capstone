@@ -18,7 +18,8 @@
 | May18 | 10.5  | Research and fitting model on the E-commerce dataset. Forecast from the ARIMA model.                                  |
 | May19 | 6     | Meeting with the clients, worked on the suggestions. ARIMA model rolling predictions.                                     |
 | May20 | 8     | Improved ARIMA model fitting and applied Lasso model.                                        |
-| May23 | 9   |Worked on improving the prediction errors of the model(ARIMA and Lasso).|
+| May23 | 8   |Worked on improving the prediction errors of the model(ARIMA and Lasso).|
+| May24 | 8   |Worked on fitting Xgboost, random forest and Lasso (the ML models).|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
