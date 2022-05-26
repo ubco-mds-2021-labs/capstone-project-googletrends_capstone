@@ -20,6 +20,7 @@
 | May20 | 8     | Improved ARIMA model fitting and applied Lasso model.                                        |
 | May23 | 8   |Worked on improving the prediction errors of the model(ARIMA and Lasso).|
 | May24 | 8   |Worked on fitting Xgboost, random forest and Lasso (the ML models).|
+| May25| 9| Worked on Cross validation and model improvisation with parallel reading of research work|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
