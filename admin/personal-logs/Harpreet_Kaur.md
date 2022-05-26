@@ -21,7 +21,7 @@
 | May23 | 8   |Worked on improving the prediction errors of the model(ARIMA and Lasso).|
 | May24 | 8   |Worked on fitting Xgboost, random forest and Lasso (the ML models).|
 | May25| 9| Worked on Cross validation and model improvisation with parallel reading of research work|
-| May26| | |
+| May26| 7 |Worked on Cross validation for lasso, xgboost and did reasearch work |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
