@@ -21,6 +21,7 @@
 | May23 | 8     |     Finalized ARIMA model and started workiing with LASSO                    |
 | May24 | 8     |     Fitted LASSO and RF for GDP                    |
 | May26 | 8     |     Cross validation and dimension reduction with PCA                   |
+| May27 | 8     |     had meeting with project partners and cross validation of fitted models               |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
