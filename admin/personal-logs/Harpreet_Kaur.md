@@ -22,6 +22,7 @@
 | May24 | 8   |Worked on fitting Xgboost, random forest and Lasso (the ML models).|
 | May25| 9| Worked on Cross validation and model improvisation with parallel reading of research work|
 | May26| 7 |Worked on Cross validation for lasso, xgboost and did reasearch work |
+| May27| 8| Meeting with partners. Applied Cross validation on other machine learning models. Started working on capstone mid term ppt|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
