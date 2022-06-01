@@ -1,4 +1,4 @@
-# Work Log for {{ Your Name }}
+# Work Log for Harpreet Kaur
 
 | Day   | Hours | Description                              |
 |-------|-------|------------------------------------------|
