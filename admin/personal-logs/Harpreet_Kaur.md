@@ -25,6 +25,7 @@
 | May27| 8| Meeting with partners. Applied Cross validation on other machine learning models. Started working on capstone mid term ppt|
 |May 29|6|Mid-term Project Presentation and principle of visualization applied on the plots within the notebook.|
 |May 30| 9.5| Cross Validation on Xgboost and worked on improving the errors obtained from the models. Prepared and finaziled the presentation.|
+|May 31|7|Attended mid-term presentation and then did some research over improvising models|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
