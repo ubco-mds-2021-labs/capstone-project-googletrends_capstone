@@ -20,7 +20,12 @@
 | May20 | 7.5 | Code for making retail trade sales data predictions accurate. Created presentations for the weekly work.|
 | May22 | 4.5  | Completed plagarism module. Did research on improving the fit of the model.|
 | May23 | 8  |Finalized the ARIMA model using DFM for retail trade sales. Started exploring machine learning models for comparative studies.|
-| May24 | 8  | Added code for random forest, boosting and lasso for retail trade sales. Added feature selection for random forest.|
+| May24 | 9 | Implemented machine learning models that are, Random Forest, LASSO, Boosting. Also, cleaned the code.|
+| May25 | 4.5  | Researched code for accuracy measurements for models and improved Random forest using cross validation.|
+| May27 | 9  | Added code for cross validation for LASSO and improved XGBoost. Worked on the presentation part.|
+| May28 | 8  | Finished the presentation for the part of methodology, models, stationary time series. Researched the plots for making code clean|
+| May30 | 9  | Finalized the presentation as a whole by adding the designing part and combining all the slides. Coded Retail trade sales to get the proper plots.|
+| May31 | 8  | Gave the mid-term presentation and looked for the further code analysis for the bootstrap.|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |

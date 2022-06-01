@@ -52,3 +52,19 @@ Minutes of meetings are as mentioned below:
 4. Presented our base model - ARIMA 
 5. Discussion on the nowcasting interfered from the base model
 6. Finalized the model that would be fitted in the following week.
+
+
+## Meeting on May 27, 2022
+
+### Agenda:
+
+Work review and discussion about next week`s plan.
+
+### Minutes of Meeting:
+
+Minutes of meetings are as mentioned below:
+
+1. Provided a detailed tour about the work done in this week.
+2. Discussed the models that we applied.
+3. Discussed the models that are best for each indiactors.
+4. Planned to apply cross validation for all the suitable models and to do bootstrap for next week.
