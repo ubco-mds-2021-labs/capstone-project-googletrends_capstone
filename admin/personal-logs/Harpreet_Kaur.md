@@ -27,7 +27,7 @@
 |May 30| 9.5| Cross Validation on Xgboost and worked on improving the errors obtained from the models. Prepared and finaziled the presentation.|
 |May 31|7|Attended mid-term presentation and then did some research over improvising models|
 | ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
+| Jun01 | 9.5     |   CV for Xgboost and worked on finding few other correlated keywords with GDP indicator and fitted model                                       |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
