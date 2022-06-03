@@ -28,7 +28,7 @@
 | May31 | 8  | Gave the mid-term presentation and looked for the further code analysis for the bootstrap.|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun01 | 9    | Added code for nowcasting the retail trade sales. Wrote dummy code for bootstarp.|
-| Jun0X | X     |                                          |
+| Jun02 | 8     | Added final code for nowcasting retail trade sales. Started working on bootstrap code for retail trade sales values.|
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
