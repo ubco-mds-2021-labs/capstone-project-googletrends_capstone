@@ -26,7 +26,7 @@
 | May31 | 7     |     had mid-term presentation and then did some research               |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun01 | 9     |         prediction for extra test set (nowcasting) for GDP                            |
-| Jun0X | X     |                                          |
+| Jun02 | 8     |      Working on bootstrap for gdp                                    |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
