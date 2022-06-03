@@ -68,3 +68,19 @@ Minutes of meetings are as mentioned below:
 2. Discussed the models that we applied.
 3. Discussed the models that are best for each indiactors.
 4. Planned to apply cross validation for all the suitable models and to do bootstrap for next week.
+
+
+## Meeting on June 3, 2022
+
+### Agenda:
+
+Work review and discussion about next week`s plan.
+
+### Minutes of Meeting:
+
+Minutes of meetings are as mentioned below:
+
+1. Provided a detailed tour about the work done in this week.
+2. Discussed the models that we applied.
+3. Finalized the model for each indicator.
+4. Discussed about the bootstrap application for next week and discussed the rough idea about the dashboard look.
