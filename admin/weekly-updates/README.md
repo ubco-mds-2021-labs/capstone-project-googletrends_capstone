@@ -27,3 +27,17 @@
 * Followed their suggestions and improved the fitted base model
 * Finally, wrote function for the rolling prediction
 
+## Week 4
+* Fitted machine learning models (LASSO, Random Forest, Boosting)
+* Applied PCA and cross validation over these models
+* Plotted graphs for the original values and growth rates calculated for all the three indicators
+* Had meeting with the project partners 'Statistics Canada' on Friday
+
+
+## Week 5
+* Implemented the left over cross validations
+* Improved the accuracies for each models
+* Applied bootstrap and nowcatsed the data for the indicators.
+* Had meeting with the project partners 'Statistics Canada' on Friday
+* Gave mid term presentations
+
