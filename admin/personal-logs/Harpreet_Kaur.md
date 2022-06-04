@@ -28,8 +28,8 @@
 |May 31|7|Attended mid-term presentation and then did some research over improvising models|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun01 | 9.5     |   CV for Xgboost and worked on finding few other correlated keywords with GDP indicator and fitted model                                       |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun02 | 8.5	|                                           |
+| Jun03 | 11     |    Meeting with project partners                                      |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
