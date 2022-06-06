@@ -29,7 +29,7 @@
 | ----- | ----- | -------------- End of May -------------- |
 | Jun01 | 9    | Added code for nowcasting the retail trade sales. Wrote dummy code for bootstarp.|
 | Jun02 | 8     | Added final code for nowcasting retail trade sales. Started working on bootstrap code for retail trade sales values.|
-| Jun03 |      |                                          |
+| Jun03 | 8     | Added code for geting the retail trade sales value by using bootstrap. |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
