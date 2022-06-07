@@ -28,7 +28,7 @@
 | Jun01 | 9     |         prediction for extra test set (nowcasting) for GDP                            |
 | Jun02 | 8     |      Working on bootstrap for gdp                                    |
 | Jun03 | 8     |      Completed bootstrap approach to get prediction interval for gdp value                                    |
-| Jun0X | X     |                                          |
+| Jun04 | 7     |      Prepared sketch for dashboard and cleaning code file                                    |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
