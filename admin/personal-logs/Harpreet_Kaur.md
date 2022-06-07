@@ -28,11 +28,11 @@
 |May 31|7|Attended mid-term presentation and then did some research over improvising models|
 | ----- | ----- | -------------- End of May -------------- |
 | Jun01 | 9.5     |   CV for Xgboost and worked on finding few other correlated keywords with GDP indicator and fitted model                                       |
-| Jun02 | 8.5	|                                           |
-| Jun03 | 11     |    Meeting with project partners                                      |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun02 | 8.5	|  Worked on improving CV for XgBoost and selecting optimal model. Studied and Applied Bootstrap on time series                                |
+| Jun03 | 11     | Meeting with project partners and worked on the suggestions received                                |
+| Jun04 |  10    | Research about improvising the results and understanding the background of why the error is coming                                         |
+| Jun05 |  4   |   Finalized the improvised model and finaizing the model. Reseach about the visualization for dashboard.                                       |
+| Jun06 |  9    | Applied bootstrap and prepared the blueprint for the dashboard.                                        |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | ----- | ----- | -------------- End of June ------------- |
