@@ -25,10 +25,10 @@
 | May30 | 8     |     worked on midterm presentation               |
 | May31 | 7     |     had mid-term presentation and then did some research               |
 | ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun01 | 9     |         prediction for extra test set (nowcasting) for GDP                            |
+| Jun02 | 8     |      Working on bootstrap for gdp                                    |
+| Jun03 | 8     |      Completed bootstrap approach to get prediction interval for gdp value                                    |
+| Jun04 | 7     |      Prepared sketch for dashboard and cleaning code file                                    |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |

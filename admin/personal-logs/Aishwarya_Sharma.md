@@ -27,10 +27,10 @@
 | May30 | 9  | Finalized the presentation as a whole by adding the designing part and combining all the slides. Coded Retail trade sales to get the proper plots.|
 | May31 | 8  | Gave the mid-term presentation and looked for the further code analysis for the bootstrap.|
 | ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun01 | 9    | Added code for nowcasting the retail trade sales. Wrote dummy code for bootstarp.|
+| Jun02 | 8     | Added final code for nowcasting retail trade sales. Started working on bootstrap code for retail trade sales values.|
+| Jun03 | 8     | Added code for geting the retail trade sales value by using bootstrap. |
+| Jun06 | 8     | Finished code for bootstrap value for retail trade sales value. Completed rough sketch for dashboard.|
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
