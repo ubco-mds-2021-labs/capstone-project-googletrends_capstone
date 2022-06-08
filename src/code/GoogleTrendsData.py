@@ -6,7 +6,8 @@ import time
 pytrends = TrendReq(hl='en-US', backoff_factor=0.1, timeout=(10,25))
 
 
-def get_trends_gdp(keyword=[''], category='0', related_queries=0, related_topics=0):
+
+def get_trends_GDP(keyword=[''], category='0', related_queries=0, related_topics=0):
     """ function to get the google trend for desired keyword and category"""
     kw_list = keyword
     cat = category
@@ -51,7 +52,7 @@ def get_trends_gdp(keyword=[''], category='0', related_queries=0, related_topics
 
 
 # get timeseries dataframe of related queries and topics (top 2) of different selected categories
-def get_trends_for_dict(dict, no_related_words):
+def get_trends_for_dict_GDP(dict, no_related_words):
     """Returns data of passed on keywords or topics dictionary"""
     i = 0
     for key, value in dict.items():
@@ -62,7 +63,7 @@ def get_trends_for_dict(dict, no_related_words):
             temp_lst = value[0:no_related_words]  # how may related words we want data for
             kw_lst = list(set(temp_lst))                # removes the repeated keywords
             for keyword in kw_lst:
-                data, _, _ = get_trends(keyword=[keyword], category=category)
+                data, _, _ = get_trends_GDP(keyword=[keyword], category=category)
 
                 # Code to append data for different keywords in data frame
                 colname = category+"_"+keyword
@@ -75,4 +76,58 @@ def get_trends_for_dict(dict, no_related_words):
                     df = df.join(data)
                 i = i+1
                 time.sleep(5)
+    return df
+
+
+
+
+#For Retail Trade Sales
+# For categories
+def get_trend_RTS(keyword=[''], category='0'):
+    """ Function for getting trends for selected keywords
+        
+        arguments: 
+        
+        Keywords: data type is string: stores list of keywords
+        category: data type is string: stores the code for category
+        
+        returns: google trend data, related queries and related topics as a data frame  
+    """
+    
+    kw_list=keyword
+    cat=category
+    timeframe='2004-01-01 2022-04-01'
+    geo ='CA'
+    gprop =''
+    
+    pytrends.build_payload(kw_list, cat, timeframe, geo, gprop)
+    data = pytrends.interest_over_time()
+    queries = pytrends.related_queries()
+    topics = pytrends.related_topics()
+    return data, queries, topics
+
+
+# For Keywords
+def get_trends_for_dict_RTS(dict):
+    i = 0
+    for key, value in dict.items():
+        category = key
+        kw_lst = set(value)  # removes the repeated keywords
+        for keyword in kw_lst:
+            data, _, _ = get_trend_RTS(keyword=[keyword], category=category)
+
+            # Code to append data for different keywords in data frame
+            colname = category+"_"+keyword
+            if len(data)==0:
+                continue
+            else:
+                if i == 0:
+                    data.rename(columns={keyword: colname}, inplace=True)
+                    df = data.drop(columns=['isPartial'])
+                else:
+                    data.rename(columns={keyword: colname}, inplace=True)
+                    data = data.drop(columns=['isPartial'])
+                    df = df.join(data)
+            i = i+1       
+            
     return df
