@@ -6,6 +6,7 @@ import time
 pytrends = TrendReq(hl='en-US', backoff_factor=0.1, timeout=(10,25))
 
 
+
 def get_trends_GDP(keyword=[''], category='0', related_queries=0, related_topics=0):
     """ function to get the google trend for desired keyword and category"""
     kw_list = keyword

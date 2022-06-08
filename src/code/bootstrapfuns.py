@@ -6,6 +6,7 @@ from numpy.random import RandomState
 
 
 # function to get the bootstrap samples
+
 def get_bootstrap_samples(train_data, n_sample=100, block_size = 10, rs=None):
     """ get circular and overlapping bootstrap samples """
 
@@ -58,8 +59,11 @@ def growth_rate_plot_and_data_bs(predicted_growth_df=None,
     plt.fill_between(growth_quantiles.index, growth_quantiles[lower_q], growth_quantiles[upper_q], alpha = 0.2, color = 'green')
     plt.gca().set(title="", xlabel="", ylabel="")
     plt.close()
-    return fig, pred_growth_rate_data
 
+    # combine all fitted and predicted data
+    growth_quantiles['Mean (Prediction invertal)'] = predicted_growth_df.mean(axis=1)
+    all_data = fitted_values.join(growth_quantiles)
+    return fig, all_data
 
 def gdp_plot_and_data_bs(modelfit, pred_gdpGrowth, gdp_original, train, test, extra_test, predicted_gdp_df_bs, lower_q = 0.025, upper_q = 0.975):
     # fitted gdp value for training set
@@ -143,7 +147,12 @@ def gdp_plot_and_data_bs(modelfit, pred_gdpGrowth, gdp_original, train, test, ex
     plt.fill_between(value_quantiles.index, value_quantiles[lower_q], value_quantiles[upper_q], alpha = 0.2, color = 'green')
     plt.gca().set(title="", xlabel="", ylabel="")
     plt.close()
-    return fig, pred_gdp_data
+
+    # combine all fitted and predicted data
+    value_quantiles['Mean (Prediction invertal)'] = predicted_gdp_df_bs.mean(axis=1)
+    all_data = fittedandActual_GDP.join(value_quantiles)
+
+    return fig, all_data
 
 #################################################### RTS FUNCTIONS####################################################
 
