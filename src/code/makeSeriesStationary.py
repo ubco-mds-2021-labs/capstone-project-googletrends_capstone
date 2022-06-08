@@ -64,3 +64,24 @@ def get_lag1_data(corrcat, corrquery,retailsales_final, response_var='GrowthRate
     extra_test_data['lag1'] = lasso_response_var.iloc[-1][0]
     lasso_predictors = pd.concat([lasso_predictors, extra_test_data])
     return lasso_predictors, lasso_response_var
+
+
+def get_lag1_data_ecommerce(retailEcommercesales_ts, ecommerce_keyword_ts, response_var='Growth_rate'):
+    """ passed response dataframe and predictors' dataframe"""
+    randomforest_key = detrend(normalize(ecommerce_keyword_ts))
+
+    # response
+    randomforest_response_var = retailEcommercesales_ts[[response_var]].iloc[1:,:]
+
+    # extract lag1 data to add to predictors
+    lag1 = retailEcommercesales_ts[[response_var]].iloc[0:retailEcommercesales_ts.shape[0]-1,:]
+    lag1.index = randomforest_response_var.index
+    lag1 = lag1.rename(columns={response_var: 'lag1'})
+    randomforest_predictors = make_predictors_df(lag1, randomforest_key)
+
+    # extra test data
+    predictors_with_extra = make_predictors_df(randomforest_key)
+    extra_test_data = predictors_with_extra.loc[predictors_with_extra.index > randomforest_predictors.index[len(randomforest_predictors.index)-1], :]
+    extra_test_data['lag1'] = randomforest_response_var.iloc[-1][0]
+    randomforest_predictors = pd.concat([randomforest_predictors, extra_test_data])
+    return randomforest_predictors, randomforest_response_var
