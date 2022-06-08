@@ -101,7 +101,11 @@ def growth_rate_plot_and_data_bs_ecommerce(predicted_growth_df=None,
     plt.fill_between(growth_quantiles.index, growth_quantiles[lower_q], growth_quantiles[upper_q], alpha = 0.2, color = 'green')
     plt.gca().set(title="", xlabel="", ylabel="")
     plt.close()
-    return fig, pred_growth_rate_data
+
+    # combine all fitted and predicted data
+    growth_quantiles['Mean (Prediction invertal)'] = predicted_growth_df.mean(axis=1)
+    all_data = fitted_values.join(growth_quantiles)
+    return fig, all_data
 
 
 def gdp_plot_and_data_bs(modelfit, pred_gdpGrowth, gdp_original, train, test, extra_test, predicted_gdp_df_bs, lower_q = 0.025, upper_q = 0.975):
@@ -276,7 +280,7 @@ def retail_plot_and_data_bs(modelfit, pred_retailGrowth, retailsales, train, tes
         for i in range(0, test.shape[0]):
             error = error + (org['VALUE'][i]-predicted_retail_df[0][i])**2
         pred_error = np.sqrt(error/predicted_retail_df.shape[0])
-        print(f"Prediction error: {pred_error}")
+        #print(f"Prediction error: {pred_error}")
 
     # predicted retail trade value for extra test set when test set is not empty
     if not extra_test.empty and not test.empty:
@@ -383,7 +387,7 @@ def ecommerce_plot_and_data_bs(modelfit, pred_EcommerceGrowth, retailEcommercesa
         for i in range(0, test.shape[0]):
             error = error + (org['Ecommerce_sales'][i]-predicted_sales_df[0][i])**2
         pred_error = np.sqrt(error/predicted_sales_df.shape[0])
-        print(f"Prediction error: {pred_error}")
+        #print(f"Prediction error: {pred_error}")
 
     # predicted sales trade value for extra test set when test set is not empty
     if not extra_test.empty and not test.empty:
@@ -435,4 +439,8 @@ def ecommerce_plot_and_data_bs(modelfit, pred_EcommerceGrowth, retailEcommercesa
     plt.fill_between(value_quantiles.index, value_quantiles[lower_q], value_quantiles[upper_q], alpha = 0.2, color = 'green')
     plt.gca().set(title="", xlabel="", ylabel="")
     plt.close()
-    return fig, pred_e_data
+
+    # combine all fitted and predicted data
+    value_quantiles['Mean (Prediction invertal)'] = predicted_e_df_bs.mean(axis=1)
+    all_data = fittedandActual_sales.join(value_quantiles)
+    return fig, all_data
