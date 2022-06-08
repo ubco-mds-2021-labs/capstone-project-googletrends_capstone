@@ -27,13 +27,13 @@
 |May 30| 9.5| Cross Validation on Xgboost and worked on improving the errors obtained from the models. Prepared and finaziled the presentation.|
 |May 31|7|Attended mid-term presentation and then did some research over improvising models|
 | ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun01 | 9.5     |   CV for Xgboost and worked on finding few other correlated keywords with GDP indicator and fitted model                                       |
+| Jun02 | 8.5	|  Worked on improving CV for XgBoost and selecting optimal model. Studied and Applied Bootstrap on time series                                |
+| Jun03 | 11     | Meeting with project partners and worked on the suggestions received                                |
+| Jun04 |  10    | Research about improvising the results and understanding the background of why the error is coming                                         |
+| Jun05 |  4   |   Finalized the improvised model and finaizing the model. Reseach about the visualization for dashboard.                                       |
+| Jun06 |  9    | Applied bootstrap and prepared the blueprint for the dashboard.                                        |
+| Jun07 | 10     | Files cleaned and proper framing of the files and structuring the work for the convenience of the partners. Py files created and worked on optimizing duplicacy and efficiency of functions.                                         |
 | Jun0X | X     |                                          |
 | ----- | ----- | -------------- End of June ------------- |
 

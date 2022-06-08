@@ -131,3 +131,29 @@ def get_trends_for_dict_RTS(dict):
             i = i+1       
             
     return df
+
+#For E-commerce
+
+def ecommerce_trend(keywords = [''],category = '340'):  #subcat - 280
+    
+    """ 
+    Function for getting trends for selected keywords
+        
+        arguments: 
+        
+            Keywords: List of String ser
+            category: String: stores the code for category
+        
+        returns: Related queries and related topics from google trend as a data frame
+    """
+    kw_list = keywords
+    cat = category
+    timeframe = '2004-01-01 2022-05-11'
+    geo = 'CA'
+    
+    pytrends.build_payload(kw_list, cat, timeframe, geo, gprop = '')
+    data = pytrends.interest_over_time()
+    queries = pytrends.related_queries()
+    topics = pytrends.related_topics()
+    
+    return data, queries, topics

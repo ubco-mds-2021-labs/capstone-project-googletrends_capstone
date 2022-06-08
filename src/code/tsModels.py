@@ -28,3 +28,4 @@ def randomForest_modelfit(train_rf, response_var='GrowthRate', n_trees = 1000):
     RFmodel = RandomForestRegressor(n_estimators=n_trees)
     RFmodel.fit(x_train, y_train)
     return RFmodel
+
