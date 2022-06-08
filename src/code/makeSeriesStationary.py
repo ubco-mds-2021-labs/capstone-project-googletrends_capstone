@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
+from dataPreProcessing import *
 
 
 def normalize(dataframe):
@@ -38,3 +39,28 @@ def remove_volatility(dataframe):
         data.iloc[i, :] = std_data.loc[d.year]
     removed_vol_data = dataframe - data
     return removed_vol_data
+
+# predictors for lasso model
+
+def get_lag1_data(corrcat, corrquery,retailsales_final, response_var='GrowthRate'):
+    """ passed response dataframe and predictors' dataframe"""
+    lasso_data = corrcat
+    lasso_cat = remove_seasonality(detrend(normalize(lasso_data)))
+    lasso_key = detrend(normalize(corrquery))
+    
+
+    # response
+    lasso_response_var = retailsales_final[[response_var]].iloc[1:,:]
+
+    # extract lag1 data to add to predictors
+    lag1 = retailsales_final[[response_var]].iloc[0:retailsales_final.shape[0]-1,:]
+    lag1.index = lasso_response_var.index
+    lag1 = lag1.rename(columns={response_var: 'lag1'})
+    lasso_predictors = make_predictors_df(lag1, lasso_key, lasso_cat)
+    
+    # extra test data
+    predictors_with_extra = make_predictors_df(lasso_key, lasso_cat)
+    extra_test_data = predictors_with_extra.loc[predictors_with_extra.index > lasso_predictors.index[len(lasso_predictors.index)-1], :]
+    extra_test_data['lag1'] = lasso_response_var.iloc[-1][0]
+    lasso_predictors = pd.concat([lasso_predictors, extra_test_data])
+    return lasso_predictors, lasso_response_var

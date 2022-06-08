@@ -6,11 +6,11 @@ from numpy.random import RandomState
 
 
 # function to get the bootstrap samples
-def get_bootstrap_samples(train_data, n_sample=100, rs=None):
+def get_bootstrap_samples(train_data, n_sample=100, block_size = 10, rs=None):
     """ get circular and overlapping bootstrap samples """
 
-    block_size = int(optimal_block_length(train_data).mean()[1])
-    print("Block size: ", block_size)
+    #block_size = int(optimal_block_length(train_data).mean()[1])
+    #print("Block size: ", block_size)
     bs = CircularBlockBootstrap(block_size, train_data, random_state=rs)
     bs_data_lst = list()
 
@@ -20,6 +20,7 @@ def get_bootstrap_samples(train_data, n_sample=100, rs=None):
         bs_data_lst.append(data[0][0])
     return bs_data_lst
 
+#################################################### GDP FUNCTIONS####################################################
 
 # function to plot prediction band for growth rate and also returns prediction band data
 def growth_rate_plot_and_data_bs(predicted_growth_df=None,
@@ -58,7 +59,6 @@ def growth_rate_plot_and_data_bs(predicted_growth_df=None,
     plt.gca().set(title="", xlabel="", ylabel="")
     plt.close()
     return fig, pred_growth_rate_data
-
 
 
 def gdp_plot_and_data_bs(modelfit, pred_gdpGrowth, gdp_original, train, test, extra_test, predicted_gdp_df_bs, lower_q = 0.025, upper_q = 0.975):
@@ -144,3 +144,154 @@ def gdp_plot_and_data_bs(modelfit, pred_gdpGrowth, gdp_original, train, test, ex
     plt.gca().set(title="", xlabel="", ylabel="")
     plt.close()
     return fig, pred_gdp_data
+
+#################################################### RTS FUNCTIONS####################################################
+
+def growth_rate_plot_and_data_RTS(predicted_growth_df=None,
+                              lower_q = 0.025,
+                              upper_q = 0.975,
+                              modelfit= None, 
+                              retailsales_final = None, 
+                              train = None,
+                              rf_pred_retailgrowth = None,
+                              fitted_growthRate_rf = None):
+
+    pred_growth_rate_data = pd.DataFrame(columns=['Retail Trade Sales Growth Rate',
+                                                  'Prediction interval (2.5%)',
+                                                  'Prediction interval (97.5%)',
+                                                  'Mean (Prediction interval)'])
+    # calcualte quantiles
+    quantiles = predicted_growth_df.quantile(q=[0.025, 0.975], axis=1, interpolation='linear')
+    growth_quantiles = np.transpose(quantiles)
+
+    pred_growth_rate_data['Retail Trade Sales Growth Rate'] = rf_pred_retailgrowth
+    pred_growth_rate_data['Prediction interval (2.5%)'] = growth_quantiles[lower_q]
+    pred_growth_rate_data['Prediction interval (97.5%)'] = growth_quantiles[upper_q]
+    pred_growth_rate_data['Mean (Prediction interval)'] = predicted_growth_df.mean(axis=1)
+
+    # organise data for plot
+    pred_rtsGrowth_for_plot = pd.concat([train['GrowthRate'].tail(1), rf_pred_retailgrowth])
+    fitted_values = pd.DataFrame({'GrowthRate': retailsales_final['GrowthRate'],
+                                'Fitted Value': fitted_growthRate_rf.squeeze(),
+                                'Predicted Value': pred_rtsGrowth_for_plot.squeeze()})
+
+    # plot
+    fitted_values.index = pd.to_datetime(fitted_values.index)
+    fig = plt.figure(figsize=(12, 4), dpi=100)
+    plt.plot(fitted_values, marker='o', markersize=2)
+    plt.plot(predicted_growth_df.mean(axis=1), color='green', linestyle='--')
+    plt.fill_between(growth_quantiles.index, growth_quantiles[lower_q], growth_quantiles[upper_q], alpha = 0.2, color = 'green')
+    plt.gca().set(title="", xlabel="", ylabel="")
+    plt.close()
+    
+    # combine all fitted and predicted data
+    growth_quantiles['Mean (Prediction invertal)'] = predicted_growth_df.mean(axis=1)
+    all_data = fitted_values.join(growth_quantiles)
+    
+    return fig, all_data
+
+
+def retail_plot_and_data_bs(modelfit, pred_retailGrowth, retailsales, train, test, extra_test, predicted_retail_df_bs, lower_q = 0.025, upper_q = 0.975):
+    
+    base_retail = retailsales['VALUE'][1]
+    
+    # calculate fitted retail sales
+    X_lasso = train.loc[:, ~train.columns.isin(['GrowthRate'])]
+    fitted_values = modelfit.predict(X_lasso)  # fitted growth rate
+    fitted_values = pd.DataFrame(fitted_values, columns={'Fitted GrowthRate'})
+    fitted_values.index = train.index
+    
+    fitted_retail = [0]*(len(fitted_values)+1)
+    fitted_retail[0] = base_retail
+    for i, value in enumerate(fitted_values['Fitted GrowthRate']):
+        fitted_retail[i+1] = fitted_retail[i]*(1 + value)
+    fitted_retail_df = pd.DataFrame(fitted_retail[1:])
+    fitted_retail_df.index = train.index
+
+    
+    #Test
+    base_retail_test = retailsales[retailsales.index == train.index[-1]]['VALUE'][0]
+    predicted_retail = [0]*pred_retailGrowth.shape[0]
+    actual_retail = base_retail_test
+    if not test.empty:
+        for i in range(0, test.shape[0]):
+            value = pred_retailGrowth[0][i]
+            predicted_retail[i] = actual_retail*(1 + value)
+            actual_retail = retailsales.loc[test.index[i]][0]
+        predicted_retail_df = pd.DataFrame(predicted_retail)
+        predicted_retail_df.index = pred_retailGrowth.index
+        predicted_retail_df = pd.concat([retailsales[retailsales.index == train.index[-1]]['VALUE'], predicted_retail_df])
+
+        # prediction error calculation
+        org = retailsales[retailsales.index >= predicted_retail_df.index[0]]
+        error = 0
+        for i in range(0, test.shape[0]):
+            error = error + (org['VALUE'][i]-predicted_retail_df[0][i])**2
+        pred_error = np.sqrt(error/predicted_retail_df.shape[0])
+        print(f"Prediction error: {pred_error}")
+
+    # predicted retail trade value for extra test set when test set is not empty
+    if not extra_test.empty and not test.empty:
+        base_retail_test = retailsales[retailsales.index == test.index[-1]]['VALUE'][0]
+        actual_retail = base_retail_test
+        for i in range(0, extra_test.shape[0]):
+            value = pred_retailGrowth.iloc[test.shape[0]+i][0]
+            predicted_retail[i] = actual_retail*(1 + value)
+            actual_retail = predicted_retail[i]
+            predicted_retail_df.iloc[test.shape[0]+i+1][0] = predicted_retail[i]
+
+    # predicted retail trade value for extra test set when test set is empty
+    if not extra_test.empty and test.empty:
+        base_retail_test = retailsales[retailsales.index == train.index[-1]]['VALUE'][0]
+        actual_retail = base_retail_test
+        for i in range(0, extra_test.shape[0]):
+            value = pred_retailGrowth.iloc[i][0]
+            predicted_retail[i] = actual_retail*(1 + value)
+            actual_retail = predicted_retail[i]
+        predicted_retail_df = pd.DataFrame(predicted_retail)
+        predicted_retail_df.index = pred_retailGrowth.index
+        predicted_retail_df = pd.concat([retailsales[retailsales.index == train.index[-1]]['VALUE'], predicted_retail_df])
+        pred_error = None
+
+
+    # Plot actual and fitted retail trade
+    Actual_retail = retailsales['VALUE'][1:]
+    fittedandActual_retail = pd.DataFrame({'Actual Retail': Actual_retail,
+                                        'Fitted Retail': fitted_retail_df.squeeze(),
+                                        'Predicted Retail': predicted_retail_df.squeeze()
+                                       })
+    
+
+    pred_retail_data = pd.DataFrame(columns=['Retail Sales Value',
+                                                  'Prediction interval (2.5%)',
+                                                  'Prediction interval (97.5%)',
+                                                  'Mean (Prediction interval)'])
+    # calcualte quantiles
+    quantiles = predicted_retail_df_bs.quantile(q=[lower_q, upper_q], axis=1, interpolation='linear')
+    value_quantiles = np.transpose(quantiles)
+
+    pred_retail_data['Retail Sales Value'] = predicted_retail_df[0][1:]
+    pred_retail_data['Prediction interval (2.5%)'] = value_quantiles[lower_q]
+    pred_retail_data['Prediction interval (97.5%)'] = value_quantiles[upper_q]
+    pred_retail_data['Mean (Prediction interval)'] = predicted_retail_df_bs.mean(axis=1)
+
+    Actual_retail = retailsales['VALUE'][1:]
+    fittedandActual_retail = pd.DataFrame({'Actual Retail Sales': Actual_retail,
+                                        'Fitted Retail Sales': fitted_retail_df.squeeze(),
+                                        'Predicted Retail Sales': predicted_retail_df.squeeze()
+                                       })
+
+    # plot
+    fittedandActual_retail.index = pd.to_datetime(fittedandActual_retail.index)
+    fig = plt.figure(figsize=(12, 4), dpi=100)
+    plt.plot(fittedandActual_retail, marker='o', markersize=4)
+    plt.plot(predicted_retail_df_bs.mean(axis=1), color='green', linestyle='--')
+    plt.fill_between(value_quantiles.index, value_quantiles[lower_q], value_quantiles[upper_q], alpha = 0.2, color = 'green')
+    plt.gca().set(title="", xlabel="", ylabel="")
+    plt.close()
+    
+    # combine all fitted and predicted data
+    value_quantiles['Mean (Prediction invertal)'] = predicted_retail_df_bs.mean(axis=1)
+    all_data = fittedandActual_retail.join(value_quantiles)
+    
+    return fig, all_data
