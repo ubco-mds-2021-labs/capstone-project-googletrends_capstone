@@ -1,5 +1,6 @@
 from pytrends.request import TrendReq
 import time
+from datetime import datetime
 
 
 # create instance 
@@ -11,7 +12,7 @@ def get_trends_GDP(keyword=[''], category='0', related_queries=0, related_topics
     """ function to get the google trend for desired keyword and category"""
     kw_list = keyword
     cat = category
-    timeframe = '2004-01-01 2022-04-01'
+    timeframe = '2004-01-01 '+datetime.today().strftime('%Y-%m-%d')
     geo = 'CA'
     gprop = ''
 
@@ -96,7 +97,7 @@ def get_trend_RTS(keyword=[''], category='0'):
     
     kw_list=keyword
     cat=category
-    timeframe='2004-01-01 2022-04-01'
+    timeframe='2004-01-01 '+datetime.today().strftime('%Y-%m-%d')
     geo ='CA'
     gprop =''
     
@@ -148,7 +149,7 @@ def ecommerce_trend(keywords = [''],category = '340'):  #subcat - 280
     """
     kw_list = keywords
     cat = category
-    timeframe = '2004-01-01 2022-05-11'
+    timeframe = '2004-01-01 '+datetime.today().strftime('%Y-%m-%d')
     geo = 'CA'
     
     pytrends.build_payload(kw_list, cat, timeframe, geo, gprop = '')
