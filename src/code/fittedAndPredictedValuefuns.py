@@ -209,5 +209,5 @@ def fitted_and_predicted_sales_ecommerce(modelfit, pred_EcommerceGrowth, retailE
                                         'Fitted Retail': fitted_sales_df.squeeze(),
                                         'Predicted Retail': predicted_sales_df.squeeze()
                                        })
-    fig = plots.plots.plot_df(fittedandActual_sales, width=10, height=3)
+    fig = plot_df(fittedandActual_sales, width=10, height=3)
     return pred_error, fig, fittedandActual_sales
