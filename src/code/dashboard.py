@@ -1,6 +1,12 @@
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
 
+# Our modules
+from dashboard_plots import * 
+
+
+fig1 = indicator_value_plot(value='GDP', from_year=2004, end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year)
+fig2 = indicator_growth_rate_plot(value='GDP', from_year=2004, end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year)
 
 #app = Dash(__name__)
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
