@@ -26,7 +26,15 @@ about = html.Div([
 
 indicator = html.Div(children=[
         html.Label('Select the Indicator'),
-        dcc.Dropdown(['GDP', 'Retail Trade Sales', 'E-Commerce'], 'GDP'),
+        dcc.Dropdown(
+            id = 'indicators_dropdown',
+            options=[
+            {"label": "Gross Domestic Product", "value": "GDP"},
+            {"label": "Retail Trade Sales", "value": "RTS"},
+            {"label": "E-Commerce Sales", "value": "EC"}
+        ],
+        value='GDP'
+        ),
     ], style={'padding': 10, 'flex': 1})
 
 year =  html.Div(children=[
