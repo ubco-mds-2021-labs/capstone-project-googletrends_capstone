@@ -1,19 +1,18 @@
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
+from dash import dcc, html, Input, Output
+from datetime import datetime
 
 # Our modules
 from dashboard_plots import * 
 
 
-fig1 = indicator_value_plot(value='GDP', from_year=2004, end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year)
-fig2 = indicator_growth_rate_plot(value='GDP', from_year=2004, end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year)
 
-#app = Dash(__name__)
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 #server = app.server
 
 
-
+# Header 
 header =  html.Div(children=[
         html.Div([
             html.H1(children='Nowcasting Macroeconomic Indicators',
@@ -25,11 +24,13 @@ header =  html.Div(children=[
         
     ], style={'padding': 10, 'flex': 1})
 
+# Description button
 about = html.Div([
     html.Button('About', id='submit-val', n_clicks=0),
    
 ])
 
+# Dropdown
 indicator = html.Div(children=[
         html.Label('Select the Indicator'),
         dcc.Dropdown(
@@ -43,13 +44,38 @@ indicator = html.Div(children=[
         ),
     ], style={'padding': 10, 'flex': 1})
 
+
+# year slider
+max_year = int(pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year)
 year =  html.Div(children=[
         html.Label('Select the year'),
-        dcc.RangeSlider(min=2004, max=2022,value = [2004, 2022], marks={i: str(i) for i in range(2004, 2022, 5)},id = 'year'),
+        dcc.RangeSlider(min=2004, 
+                        max=max_year,
+                        id='year_slider',
+                        value = [2004, max_year],
+                        marks={i: str(i) for i in range(2004, max_year, 5)}),
     ], style={'padding': 10, 'flex': 1})
 
 
+# Growth rate plot object
+growth_rate_plot_object  = html.Div([dcc.Graph(
+    id='growth_rate_plot',
+    figure=indicator_growth_rate_plot(value='GDP', from_year=2004, 
+                            end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year),
+    style={'border-width': '0', 'width': '100%', 'height': '500px'})
+])
 
+
+# value plot object
+value_plot_object  = html.Div([dcc.Graph(
+    id='value_plot',
+    figure=indicator_value_plot(value='GDP', from_year=2004, 
+    end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year),
+    style={'border-width': '0', 'width': '100%', 'height': '500px'})
+])
+
+
+# Row 1
 row = html.Div(
     [
         dbc.Row(dbc.Col(header,md=10)),
@@ -64,12 +90,49 @@ row = html.Div(
     ]
 )
 
+################################ layout #############################################
+
+app.layout = dbc.Container([
+    row,
+   growth_rate_plot_object,
+   value_plot_object
+])
 
 
-app.layout = html.Div([
-    row
+# app.layout = html.Div([
+#     row,
+#     #growth_rate_plot_object
      
-], style={'display': 'flex', 'flex-direction': 'row'})
+# ], style={'display': 'flex', 'flex-direction': 'row'})
+
+
+########################## Callbacks #############################################
+@app.callback(
+    Output("growth_rate_plot", 'figure'),
+    [
+        Input("indicators_dropdown", "value"),
+        Input("year_slider", "value")
+    ]
+)
+def update_indicator_growth_rate_plot(value, year):
+    from_year = year[0]
+    end_year = year[1]
+    return indicator_growth_rate_plot(value, from_year, end_year)
+
+
+@app.callback(
+    Output("value_plot", 'figure'),
+    [
+        Input("indicators_dropdown", "value"),
+        Input("year_slider", "value")
+    ]
+)
+def update_indicator_value_plot(value, year):
+    from_year = year[0]
+    end_year = year[1]
+    return indicator_value_plot(value, from_year, end_year)
+
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
