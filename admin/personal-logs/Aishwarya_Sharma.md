@@ -32,7 +32,7 @@
 | Jun03 | 8     | Added code for geting the retail trade sales value by using bootstrap. |
 | Jun06 | 8     | Finished code for bootstrap value for retail trade sales value. Completed rough sketch for dashboard.|
 | Jun07 | 9     | Created python files for scripts. Created a final retail sales file with cleaned code. |
-| Jun0X | X     |                                          |
+| Jun08 | 9     | Writed the code for the layout of dashboard. Cleaned scripts for retail trade sales.  |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | ----- | ----- | -------------- End of June ------------- |
