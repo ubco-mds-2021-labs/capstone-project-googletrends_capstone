@@ -34,6 +34,6 @@
 | Jun05 |  4   |   Finalized the improvised model and finaizing the model. Reseach about the visualization for dashboard.                                       |
 | Jun06 |  9    | Applied bootstrap and prepared the blueprint for the dashboard.                                        |
 | Jun07 | 10     | Files cleaned and proper framing of the files and structuring the work for the convenience of the partners. Py files created and worked on optimizing duplicacy and efficiency of functions.                                         |
-| Jun0X | X     |                                          |
+| Jun08 | 9     | Python Scripts cleaned and combined for all the indicators. Started creating dashboard and finalised the dashboard layout after suggestions from Professor(Firas).|
 | ----- | ----- | -------------- End of June ------------- |
 
