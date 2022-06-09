@@ -106,7 +106,7 @@ def fitted_and_predicted_retail(modelfit, pred_retailGrowth, retailsales, train,
         for i in range(0, test.shape[0]):
             error = error + (org['VALUE'][i]-predicted_retail_df[0][i])**2
         pred_error = np.sqrt(error/predicted_retail_df.shape[0])
-        print(f"Prediction error: {pred_error}")
+        #print(f"Prediction error: {pred_error}")
 
     # predicted retail trade value for extra test set when test set is not empty
     if not extra_test.empty and not test.empty:
@@ -177,7 +177,7 @@ def fitted_and_predicted_sales_ecommerce(modelfit, pred_EcommerceGrowth, retailE
         for i in range(0, test.shape[0]):
             error = error + (org['Ecommerce_sales'][i]-predicted_sales_df[0][i])**2
         pred_error = np.sqrt(error/predicted_sales_df.shape[0])
-        print(f"Prediction error: {pred_error}")
+        #print(f"Prediction error: {pred_error}")
 
     # predicted sales trade value for extra test set when test set is not empty
     if not extra_test.empty and not test.empty:
