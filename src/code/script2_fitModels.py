@@ -213,7 +213,7 @@ pred_error_e, fig_e, data_e = fitted_and_predicted_sales_ecommerce(rfmodel_e,
 ################################################################################
 ## Bootstrap for GDP
 # create bootstrap samples
-bs_samples = get_bootstrap_samples(train, n_sample=2, block_size=9, rs=None)  # rs = RandomState(1234)
+bs_samples = get_bootstrap_samples(train, n_sample=100, block_size=9, rs=None)  # rs = RandomState(1234)
 # get predicted growth rate uisng bootstrap samples
 predicted_growth_df = pd.DataFrame(columns=list(range(0, len(bs_samples))))
 for i, df in enumerate(bs_samples):
@@ -228,7 +228,7 @@ for i, df in enumerate(bs_samples):
 
 ## Bootstrap for Retail Trade Sales
 # create bootstrap samples
-bs_samples = get_bootstrap_samples(train_rf, n_sample=2, rs=None)  # RandomState(1234)
+bs_samples = get_bootstrap_samples(train_rf, n_sample=100, rs=None)  # RandomState(1234)
 # get predicted growth rate uisng bootstrap samples
 predicted_rsales_df = pd.DataFrame(columns=list(range(0, len(bs_samples))))
 for i, df in enumerate(bs_samples):
@@ -243,7 +243,7 @@ for i in range(0, len(bs_samples)):
 
 ## E-Commerce 
 # create bootstrap samples
-bs_samples = get_bootstrap_samples(train_rf_e, n_sample=2, block_size=9, rs=None)
+bs_samples = get_bootstrap_samples(train_rf_e, n_sample=100, block_size=9, rs=None)
 # get predicted growth rate uisng bootstrap samples
 predicted_growth_df_e = pd.DataFrame(columns=list(range(0, len(bs_samples))))
 for i, df in enumerate(bs_samples):
