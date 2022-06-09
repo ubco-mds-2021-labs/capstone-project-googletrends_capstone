@@ -34,6 +34,19 @@ year =  html.Div(children=[
         dcc.RangeSlider(min=2004, max=2022,value = [2004, 2022], marks={i: str(i) for i in range(2004, 2022, 5)},id = 'year'),
     ], style={'padding': 10, 'flex': 1})
 
+card_value = dbc.Card(
+    [
+        dbc.CardHeader("Predicted Value"),
+        dbc.CardBody(
+            [
+                html.P("Predicted value is as shown below",
+                       className="text-center", id="pred_value")
+            ]
+        ),
+    ],
+    style={"width": "10rem", 'display': 'inline-block',
+           "justify-content": "center", "border": "10px lightgray solid"}
+)
 
 
 row = html.Div(
@@ -41,6 +54,7 @@ row = html.Div(
         dbc.Row(dbc.Col(header,md=10)),
         dbc.Row(
             [
+                dbc.Col(html.Div(card_value),md=2),
                 dbc.Col(html.Div(about),md=2),
                 dbc.Col(html.Div(indicator),md=5),
                 dbc.Col(html.Div(year),md=5),
