@@ -26,6 +26,10 @@ ec_growth = pd.read_csv(ec_growth_path, index_col=0)
 ec_growth.index = pd.to_datetime(ec_growth.index)
 ec_growth = ec_growth.rename(columns={'Ecommerce_GrowthRate': 'Actual Growth Rate'})
 
+# Read data for prediction errors
+pred_error_path = '../../data/storeddata/PredictionErrors.csv'
+pred_error = pd.read_csv(pred_error_path)
+
 
 # function to get the values
 def indicator_value_scorecard(value='GDP'):
@@ -41,7 +45,7 @@ def indicator_value_scorecard(value='GDP'):
     elif value == 'EC':
         data = ec_value
         predicted_value = data.tail()[data.tail()['Actual Ecommerce'].isna()].head(1)['Predicted Ecommerce'][0]
-    return round(predicted_value, 2)
+    return '{:,}'.format(round(predicted_value, 2))
 
 
 #function to get the growth rate
@@ -62,4 +66,16 @@ def indicator_growth_rate_scorecard(value='GDP'):
     elif value == 'EC':
         data = ec_growth
         growth_rate = data.tail()[data.tail()[actual_name].isna()].head(1)[predicted_name][0]
-    return round(growth_rate, 4)
+    return '{:,}'.format(round(growth_rate, 4))
+
+
+
+def pred_error_scorecard(value='GDP'):
+    """function returns the prediction error of the desired indicator value"""
+    if value == 'GDP':
+        return '{:,}'.format(round(pred_error['GDP'][0], 2))
+    elif value == 'RTS':
+        return '{:,}'.format(round(pred_error['RTS'][0], 2))
+    elif value == 'EC':
+        return '{:,}'.format(round(pred_error['ECOM'][0], 2))
+
