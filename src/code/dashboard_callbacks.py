@@ -2,12 +2,17 @@ from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
 from dash import dcc, html, Input, Output,State
 from datetime import datetime
+import pandas as pd
 
 # Our modules
 from dashboard_plots import * 
 from dashboard_scorecard import *
 from dashboard_components import *
 
+
+
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+#server = app.server
 
 
 ########################## Callbacks #############################################
@@ -74,3 +79,37 @@ def toggle_modal(n, is_open):
     if n:
         return not is_open
     return is_open 
+
+####################################### Downalod buttons callbakcs ##########################################
+### GDP download button callback
+@app.callback(
+    Output("download-gdp-csv", "data"),
+    Input("gdp_btn", "n_clicks"),
+    prevent_initial_call=True,
+)
+def gdp_predictors_download(n_clicks):
+    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/GDP.csv?token=GHSAT0AAAAAABQEJ7WG4WGHRLQYZQGFQ6RUYVDZNGA'
+    gdp_df = pd.read_csv(url)
+    return dcc.send_data_frame(gdp_df.to_csv, "GDPpredictors.csv")
+
+### RTS download button callback
+@app.callback(
+    Output("download-rts-csv", "data"),
+    Input("rts_btn", "n_clicks"),
+    prevent_initial_call=True,
+)
+def rts_predictors_download(n_clicks):
+    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/RETAIL_SALES.csv?token=GHSAT0AAAAAABQEJ7WHWQUC3NRHY7GPKNAIYVDVYZQ'
+    rts_df = pd.read_csv(url)
+    return dcc.send_data_frame(rts_df.to_csv, "RTSpredictors.csv")
+
+### E-commerce download button callback
+@app.callback(
+    Output("download-ec-csv", "data"),
+    Input("ec_btn", "n_clicks"),
+    prevent_initial_call=True,
+)
+def ec_predictors_download(n_clicks):
+    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/ECOMMERCE.csv?token=GHSAT0AAAAAABQEJ7WGK5KXX4UUUFUOJYTUYVDZU6A'
+    ec_df = pd.read_csv(url)
+    return dcc.send_data_frame(ec_df.to_csv, "ECommercepredictors.csv")

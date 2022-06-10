@@ -98,14 +98,19 @@ def value_plot(data, actual_name, fitted_name, predicted_name, y_title, x_title,
         'xanchor': 'left',
         'yanchor': 'top'},
         hovermode="x",
-        width=1100,
+        width=850,
         height=450,
         legend={'traceorder':'normal',
                 'orientation': 'h',
                 'yanchor': "bottom",
                 'y': 1,
                 'xanchor': "right",
-                'x': 1}
+                'x': 1},
+        margin=dict(
+        b=10, # bottom margin: 10px
+        l=10, # left margin: 10px
+        r=2, # right margin: 10px
+    )
     )
     return fig
 
