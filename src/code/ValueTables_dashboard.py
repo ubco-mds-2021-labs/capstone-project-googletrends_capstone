@@ -1,5 +1,4 @@
 import dash
-import altair as alt
 import pandas as pd
 import dash_bootstrap_components as dbc
 import pathlib
