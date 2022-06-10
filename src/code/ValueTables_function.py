@@ -2,6 +2,8 @@ import pandas as pd
 import math
 
 def ValueTable(indicator):
+    """ The dashboard`s Value and Prediction Interval table"""
+
     if indicator == "GDP":
         IndicatorValues = pd.read_csv('../../data/storeddata/GDP_ValueResults.csv')
 
@@ -23,6 +25,6 @@ def ValueTable(indicator):
     IndicatorValues_Table.rename(columns={list(IndicatorValues_Table)[0]:'Date'}, inplace=True)
     IndicatorValues_Table.rename(columns={list(IndicatorValues_Table)[2]:'Prediction Interval (2.5%)'}, inplace=True)
     IndicatorValues_Table.rename(columns={list(IndicatorValues_Table)[3]:'Prediction Interval (97.5%)'}, inplace=True)
-
+    IndicatorValues_Table.reset_index(inplace=True)
     return IndicatorValues_Table
 
