@@ -26,4 +26,3 @@ def ValueTable(indicator):
 
     return IndicatorValues_Table
 
-ValueTable('GDP')
