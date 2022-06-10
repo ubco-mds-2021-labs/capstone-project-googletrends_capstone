@@ -10,8 +10,8 @@ from dash import Dash, dash_table
 from datetime import date
 import math
 
-df = pd.read_csv('../data/storeddata/Ecomm_GrowthRateResults.csv')
-
+dff = pd.read_csv('C:/Yashi/UBC MDS/capstone/capstone-project-googletrends_capstone/data/storeddata/Ecomm_GrowthRateResults.csv')
+df=dff.tail(5)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
@@ -22,17 +22,14 @@ app.layout = dash_table.DataTable(df.to_dict('records'),
         'backgroundColor': 'rgb(210, 210, 210)',
         'fontWeight': 'bold'
     }
-    # ,
-    #  style_data_conditional=[
-    #     {
-    #         'if': {
-    #             'filter_query': '{Ecommerce_GrowthRate} == " " ',
-    #             'column_id': 'Ecommerce_GrowthRate'
-    #         },
-    #         'backgroundColor': '#FF4136',
-    #         'fontWeight': 'bold'
-    #     }
-    # ]    
+    ,
+    style_data_conditional=[
+        {
+            "if": {"row_index": len(df) - 1},
+            "fontWeight": "bold",
+            'backgroundColor': 'rgb(210, 210, 210)',
+        },
+    ],    
 )
 
 if __name__ == "__main__":
