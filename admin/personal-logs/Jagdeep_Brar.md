@@ -30,8 +30,8 @@
 | Jun03 | 8     |      Completed bootstrap approach to get prediction interval for gdp value                                    |
 | Jun06 | 7     |      Prepared sketch for dashboard and cleaning code file                                    |
 | Jun07 | 8     |      Making scripts of code for easy compilation of dashboard                                    |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun08 | 8     |      Made scripts from notebooks, started working on dashboard                                    |
+| Jun09 | 8     |      Created plots for dahboard and made them interactive                                 |
 | Jun0X | X     |                                          |
 | ----- | ----- | -------------- End of June ------------- |
 

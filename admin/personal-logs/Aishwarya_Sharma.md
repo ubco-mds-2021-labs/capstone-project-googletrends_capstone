@@ -31,9 +31,9 @@
 | Jun02 | 8     | Added final code for nowcasting retail trade sales. Started working on bootstrap code for retail trade sales values.|
 | Jun03 | 8     | Added code for geting the retail trade sales value by using bootstrap. |
 | Jun06 | 8     | Finished code for bootstrap value for retail trade sales value. Completed rough sketch for dashboard.|
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun07 | 9     | Created python files for scripts. Created a final retail sales file with cleaned code. |
+| Jun08 | 9     | Writed the code for the layout of dashboard. Cleaned scripts for retail trade sales.  |
+| Jun09 | 8    |Wrote code for score cards and about for dashboard. Added functions and python file for the same. |
 | Jun0X | X     |                                          |
 | ----- | ----- | -------------- End of June ------------- |
 
