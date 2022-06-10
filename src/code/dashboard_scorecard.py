@@ -28,61 +28,38 @@ ec_growth = ec_growth.rename(columns={'Ecommerce_GrowthRate': 'Actual Growth Rat
 
 
 # function to get the values
-def indicator_value_scorecard(value='GDP', from_year=2004, end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year):
+def indicator_value_scorecard(value='GDP'):
     """ function selects required data and returns the desired indicator's predicted value """
     if value == 'GDP':
         data = gdp_value
-        actual_name = "Actual GDP"
-        predicted_name = "Predicted GDP"
-        
-        data=data[(data.index.year >= from_year) & (data.index.year <= end_year)]
-
         predicted_value = data.tail()[data.tail()['Actual GDP'].isna()].head(1)['Predicted GDP'][0]
 
     elif value == 'RTS':
         data = rts_value
-        actual_name = "Actual Retail Sales"
-        predicted_name = "Predicted Retail Sales"
-       
-        data=data[(data.index.year >= from_year) & (data.index.year <= end_year)]
-
         predicted_value = data.tail()[data.tail()['Actual Retail Sales'].isna()].head(1)['Predicted Retail Sales'][0]
 
     elif value == 'EC':
         data = ec_value
-        actual_name = "Actual Ecommerce"
-        predicted_name = "Predicted Ecommerce"
-            
-        data=data[(data.index.year >= from_year) & (data.index.year <= end_year)]
-
         predicted_value = data.tail()[data.tail()['Actual Ecommerce'].isna()].head(1)['Predicted Ecommerce'][0]
-    return predicted_value
+    return round(predicted_value, 2)
 
 
 #function to get the growth rate
-def indicator_growth_rate_scorecard(value='GDP', from_year=2004, end_year = pd.to_datetime(datetime.today().strftime('%Y-%m-%d')).year):
+def indicator_growth_rate_scorecard(value='GDP'):
     """ function selects required data and returns the desired growth rate value"""
 
     actual_name = "Actual Growth Rate"
     predicted_name = "Predicted Value"
 
     if value == 'GDP':
-        data = gdp_growth  
-        data=data[(data.index.year >= from_year) & (data.index.year <= end_year)]
-
+        data = gdp_growth 
         growth_rate = data.tail()[data.tail()[actual_name].isna()].head(1)[predicted_name][0]
 
     elif value == 'RTS':
         data = rts_growth
-       
-        data=data[(data.index.year >= from_year) & (data.index.year <= end_year)]
-
         growth_rate = data.tail()[data.tail()[actual_name].isna()].head(1)[predicted_name][0]
 
     elif value == 'EC':
         data = ec_growth
-            
-        data=data[(data.index.year >= from_year) & (data.index.year <= end_year)]
-
         growth_rate = data.tail()[data.tail()[actual_name].isna()].head(1)[predicted_name][0]
-    return growth_rate
+    return round(growth_rate, 4)
