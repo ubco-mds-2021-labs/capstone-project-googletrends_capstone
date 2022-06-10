@@ -31,7 +31,7 @@
 | Jun06 | 7     |      Prepared sketch for dashboard and cleaning code file                                    |
 | Jun07 | 8     |      Making scripts of code for easy compilation of dashboard                                    |
 | Jun08 | 8     |      Made scripts from notebooks, started working on dashboard                                    |
-| Jun0X | X     |                                          |
+| Jun09 | 8     |      Created plots for dahboard and made them interactive                                 |
 | Jun0X | X     |                                          |
 | ----- | ----- | -------------- End of June ------------- |
 
