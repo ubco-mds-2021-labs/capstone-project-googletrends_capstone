@@ -10,7 +10,7 @@ from dash import Dash, dash_table
 from datetime import date
 import math
 
-dff = pd.read_csv('../data/storeddata/Ecomm_GrowthRateResults.csv')
+dff = pd.read_csv('../../data/storeddata/Ecomm_GrowthRateResults.csv')
 df=dff.tail(5)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
