@@ -12,7 +12,7 @@ from dashboard_scorecard import *
 header =  html.Div(children=[
         html.Div([
             html.H1(children='Nowcasting Macroeconomic Indicators Using Google Trends',
-                    style = {'textAlign' : 'center','color':'#f5b942'}
+                    style = {'textAlign' : 'center','background':'#FDEBD0','color':'#E74C3C'}##f5b942'
             )],
             #className='col-12',
             style = {'padding-top' : '1%'}

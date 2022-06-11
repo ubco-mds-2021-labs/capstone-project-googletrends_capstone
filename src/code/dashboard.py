@@ -41,7 +41,11 @@ left_partition = html.Div([html.Br(),
                            html.H6("- Select the area to zoom in and use the options on the plot for other informative options."),
                            html.H6("- If you want to know more about our project, go ahead and click the About button on the top right corner!"),
                            html.H6("Links: "),
-                           html.Br()
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
                            ],
     style={'background': '#A9DFBF', 'padding-left': '4%'})
 right_partition = html.Div(
@@ -96,7 +100,7 @@ row2 = html.Div(dbc.Row([
 app.layout = html.Div([
     row1,
     row2
-])
+],style={'background':'#FDEBD0'})
 
 
 if __name__ == '__main__':
