@@ -1,6 +1,6 @@
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
-from dash import dcc, html, Input, Output,State
+from dash import dcc, html, Input, Output, State, dash_table
 from datetime import datetime
 import pandas as pd
 
@@ -9,6 +9,7 @@ from dashboard_plots import *
 from dashboard_scorecard import *
 from dashboard_components import *
 from dashboard_callbacks import *
+from dashboard_table_funs import *
 
 
 
@@ -61,12 +62,18 @@ right_row4 = html.Div(dbc.Row([
 ]))
 
 
+right_row_5 = html.Div([
+    dbc.Row(growth_rate_table),
+    dbc.Row(pred_interval_table)
+])
+
 
 right_partition = html.Div(dbc.Col([
     right_row1,
     right_row2,
     right_row3,
-    right_row4
+    right_row4,
+    right_row_5
 ]))
 
 row2 = html.Div(dbc.Row([

@@ -8,6 +8,7 @@ import pandas as pd
 from dashboard_plots import * 
 from dashboard_scorecard import *
 from dashboard_components import *
+from dashboard_table_funs import *
 
 
 
@@ -113,3 +114,13 @@ def ec_predictors_download(n_clicks):
     url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/ECOMMERCE.csv?token=GHSAT0AAAAAABQEJ7WGK5KXX4UUUFUOJYTUYVDZU6A'
     ec_df = pd.read_csv(url)
     return dcc.send_data_frame(ec_df.to_csv, "ECommercepredictors.csv")
+
+
+########### Callback for small table #########
+# for score card - Predicted value
+@app.callback(
+    Output('growth_table', 'children'),
+    Input("indicators_dropdown", "value")
+)
+def update_GrowthValueTable(value):
+    return GrowthValueTable(value)

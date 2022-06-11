@@ -1,11 +1,12 @@
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
-from dash import dcc, html, Input, Output,State
+from dash import dcc, html, Input, Output, State, dash_table
 from datetime import datetime
 
 # Our modules
 from dashboard_plots import * 
 from dashboard_scorecard import *
+from dashboard_table_funs import *
 
 
 ################################ Header ################################
@@ -243,3 +244,58 @@ about = html.Div(
         ),
     ]
 )
+
+
+####################### Small Table #########################################
+fun_value = GrowthValueTable('GDP')
+growth_rate_table = html.Div(dash_table.DataTable(fun_value.to_dict('records'),
+    style_table={'height': '400px','width': '800px'},
+    #style_cell={'textAlign': 'left'},
+    style_header={
+        'backgroundColor': 'rgb(210, 210, 210)',
+        'fontWeight': 'bold'
+    },
+    style_data_conditional=[
+        {
+            "if": {"row_index": len(fun_value) - 1},
+            "fontWeight": "bold",
+            'backgroundColor': 'rgb(210, 210, 210)',
+        }
+    ],
+    style_cell={
+        'textAlign': 'center',
+        'height': '400',
+        'width': '800px',
+        # all three widths are needed
+        'minWidth': '70px', 'width': '110px', 'maxWidth': '260px',
+        'whiteSpace': 'normal'
+    }
+), id = 'growth_table')
+
+############################# Prediction interval table ##############################
+value_t = ValueTable('GDP')
+
+pred_interval_table = html.Div(dash_table.DataTable(value_t.to_dict('records'),
+    style_table={'height': '400px','width': '800px'},
+    #style_cell={'textAlign': 'left'},
+    style_header={
+        'backgroundColor': 'rgb(210, 210, 210)',
+        'fontWeight': 'bold'
+    },
+    style_data_conditional=[
+        {
+            "if": {"row_index": len(value_t) - 1},
+            "fontWeight": "bold",
+            'backgroundColor': 'rgb(210, 210, 210)',
+        }
+    ],
+    style_cell={
+        'textAlign': 'center',
+        'height': '400',
+        'width': '800px',
+        # all three widths are needed
+        'minWidth': '70px', 'width': '110px', 'maxWidth': '260px',
+        'whiteSpace': 'normal'
+    }
+    
+), id = 'pred_int_table')
