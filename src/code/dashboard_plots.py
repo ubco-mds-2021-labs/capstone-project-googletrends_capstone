@@ -92,11 +92,25 @@ def value_plot(data, actual_name, fitted_name, predicted_name, y_title, x_title,
     fig.update_layout(
         yaxis_title=y_title,
         xaxis_title=x_title,
-        title=plot_title,
+        title={
+        'text': plot_title,
+        'x':0.08,
+        'xanchor': 'left',
+        'yanchor': 'top'},
         hovermode="x",
-        width=1100,
+        width=850,
         height=450,
-        legend={'traceorder':'normal'}
+        legend={'traceorder':'normal',
+                'orientation': 'h',
+                'yanchor': "bottom",
+                'y': 1,
+                'xanchor': "right",
+                'x': 1},
+        margin=dict(
+        b=10, # bottom margin: 10px
+        l=10, # left margin: 10px
+        r=2, # right margin: 10px
+    )
     )
     return fig
 
@@ -153,7 +167,7 @@ def indicator_growth_rate_plot(value='GDP', from_year=2004, end_year = pd.to_dat
 
     if value == 'GDP':
         data = gdp_growth
-        y_title='GDP Growth Rate'
+        y_title='GDP Growth Rate (%)'
         x_title='Timeline (Quarters)'
         plot_title='Gross Domestic Product (GDP) Growth Rate Prediction'
             
@@ -163,7 +177,7 @@ def indicator_growth_rate_plot(value='GDP', from_year=2004, end_year = pd.to_dat
 
     elif value == 'RTS':
         data = rts_growth
-        y_title='Retail Trade Sales Growth Rate'
+        y_title='Retail Trade Sales Growth Rate (%)'
         x_title='Timeline (Months)'
         plot_title='Retail Trade Sales Growth Rate Prediction'
             
@@ -173,7 +187,7 @@ def indicator_growth_rate_plot(value='GDP', from_year=2004, end_year = pd.to_dat
 
     elif value == 'EC':
         data = ec_growth
-        y_title='E-Commerce Trade Sales Growth Rate'
+        y_title='E-Commerce Trade Sales Growth Rate (%)'
         x_title='Timeline (Months)'
         plot_title='E-Commerce Trade Sales Growth Rate Prediction'
             
