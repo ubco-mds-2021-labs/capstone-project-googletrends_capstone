@@ -1,3 +1,5 @@
+from turtle import width
+from matplotlib.axis import XAxis
 import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime
@@ -54,7 +56,7 @@ def value_plot(data, actual_name, fitted_name, predicted_name, y_title, x_title,
             name='Predicted value (rolling)',
             x=data.index,
             y=data[predicted_name],
-            line=dict(color="darkgreen")
+            line=dict(color="#00848E")
         ))
     # Upper bound
     fig.add_trace(
@@ -76,7 +78,7 @@ def value_plot(data, actual_name, fitted_name, predicted_name, y_title, x_title,
             marker=dict(color="#444"),
             line=dict(width=0),
             mode='lines',
-            fillcolor='rgba(0,100,0,0.4)',  # grey color 'rgba(68, 68, 68, 0.3)',
+            fillcolor='rgba(48,213,200,0.5)',  # grey color 'rgba(68, 68, 68, 0.3)', darkgreen rgba(0,100,0,0.4)
             fill='tonexty',
             showlegend=False
         ))
@@ -86,7 +88,7 @@ def value_plot(data, actual_name, fitted_name, predicted_name, y_title, x_title,
             name="Mean (Prediction interval)",
             x=data.index,
             y=data['Mean (Prediction invertal)'],
-            line=dict(color="darkgreen", dash='dot', width=3)
+            line=dict(color="#00848E", dash='dot', width=3)
         ))
 
     fig.update_layout(
@@ -98,8 +100,8 @@ def value_plot(data, actual_name, fitted_name, predicted_name, y_title, x_title,
         'xanchor': 'left',
         'yanchor': 'top'},
         hovermode="x",
-        width=850,
-        height=450,
+        width=900,
+        height=400,
         legend={'traceorder':'normal',
                 'orientation': 'h',
                 'yanchor': "bottom",
@@ -109,8 +111,13 @@ def value_plot(data, actual_name, fitted_name, predicted_name, y_title, x_title,
         margin=dict(
         b=10, # bottom margin: 10px
         l=10, # left margin: 10px
-        r=2, # right margin: 10px
-    )
+        r=2 # right margin: 10px
+    ),
+    # trasparent-background
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor= 'rgba(0,0,0,0)',
+    xaxis = dict(showline = True, linecolor = 'black', linewidth=1),
+    yaxis = dict(showline = True, linecolor = 'black', linewidth=1)
     )
     return fig
 

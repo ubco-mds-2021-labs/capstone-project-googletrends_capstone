@@ -8,6 +8,7 @@ import pandas as pd
 from dashboard_plots import * 
 from dashboard_scorecard import *
 from dashboard_components import *
+from dashboard_table_funs import *
 
 
 
@@ -113,3 +114,68 @@ def ec_predictors_download(n_clicks):
     url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/ECOMMERCE.csv?token=GHSAT0AAAAAABQEJ7WGK5KXX4UUUFUOJYTUYVDZU6A'
     ec_df = pd.read_csv(url)
     return dcc.send_data_frame(ec_df.to_csv, "ECommercepredictors.csv")
+
+
+########### Callback for small table #########
+@app.callback(
+    Output('growth_table', 'children'),
+    Input("indicators_dropdown", "value")
+)
+def update_GrowthValueTable(value):
+    return dash_table.DataTable(GrowthValueTable(value).to_dict('records'),
+    style_table={'width': '300px'},
+    #style_cell={'textAlign': 'left'},
+    style_header={
+        'backgroundColor': 'lightgrey',
+        'fontWeight': 'bold',
+        'border': '1px solid grey' 
+    },
+    style_data_conditional=[
+        {
+            "if": {"row_index": list(range(Count_predicted_growth_rates(value),5))},
+            "fontWeight": "bold",
+            'backgroundColor': '#B7ECEC',
+        }
+    ],
+    style_cell={
+        'textAlign': 'center',
+        'height': '400',
+        'width': '800px',
+        # all three widths are needed
+        'minWidth': '70px', 'width': '110px', 'maxWidth': '260px',
+        'whiteSpace': 'normal',
+        'border': '1px solid grey'
+    }
+)
+
+########## callback for prediction interval table
+@app.callback(
+    Output('pred_int_table', 'children'),
+    Input("indicators_dropdown", "value")
+)
+def update_ValueTable(value):
+    return dash_table.DataTable(ValueTable(value).to_dict('records'),
+    style_table={'width': '700px'},
+    #style_cell={'textAlign': 'left'},
+    style_header={
+        'backgroundColor': 'lightgrey',
+        'fontWeight': 'bold',
+        'border': '1px solid grey' 
+    },
+    style_data_conditional=[
+        {
+            "if": {"row_index": list(range(Count_predicted_growth_rates(value),5))},
+            "fontWeight": "bold",
+            'backgroundColor': '#B7ECEC',
+        }
+    ],
+    style_cell={
+        'textAlign': 'center',
+        'height': '400',
+        'width': '800px',
+        # all three widths are needed
+        'minWidth': '70px', 'width': '110px', 'maxWidth': '260px',
+        'whiteSpace': 'normal',
+        'border': '1px solid grey'
+    }
+)
