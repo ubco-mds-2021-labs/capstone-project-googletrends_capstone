@@ -13,7 +13,7 @@ from dashboard_table_funs import *
 
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-#server = app.server
+server = app.server
 
 
 ########################## Callbacks #############################################
