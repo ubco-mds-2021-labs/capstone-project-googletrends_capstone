@@ -5,8 +5,8 @@ from datetime import datetime
 import pandas as pd
 
 # Our modules
-from dashboard_scorecard import *
 from dashboard_plots import * 
+from dashboard_scorecard import *
 from dashboard_components import *
 from dashboard_callbacks import *
 from dashboard_table_funs import *
