@@ -84,3 +84,19 @@ Minutes of meetings are as mentioned below:
 2. Discussed the models that we applied.
 3. Finalized the model for each indicator.
 4. Discussed about the bootstrap application for next week and discussed the rough idea about the dashboard look.
+
+
+## Meeting on June 10, 2022
+
+### Agenda:
+
+Work review and discussion about the sketch.
+
+### Minutes of Meeting:
+
+Minutes of meetings are as mentioned below:
+
+1. Provided a detailed tour about the work done in this week.
+2. Reviewed the sketch of the dashboard.
+3. Displayed the demo version of the dashboard(locally) about the interactive elements.
+4. Discussed about the filing structure.
