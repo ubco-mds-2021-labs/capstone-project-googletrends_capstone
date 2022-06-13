@@ -68,7 +68,24 @@ def update_indicator_growth_rate_scorecard(value):
 )
 def update_pred_error_scorecard(value):
     return pred_error_scorecard(value)
+
+# for score card growth rate - print date
+@app.callback(
+    Output('date_growth_rate', 'children'),
+    Input("indicators_dropdown", "value")
+)
+def update_date_for_score_card(value):
+    return date_for_score_card(value)
     
+
+# for score card value - print date
+@app.callback(
+    Output('date_value', 'children'),
+    Input("indicators_dropdown", "value")
+)
+def update_date_for_score_card_value(value):
+    return date_for_score_card(value)
+
 
 # Call back for About
 @app.callback(

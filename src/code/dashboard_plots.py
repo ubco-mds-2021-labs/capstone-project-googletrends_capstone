@@ -1,5 +1,3 @@
-from turtle import width
-from matplotlib.axis import XAxis
 import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime

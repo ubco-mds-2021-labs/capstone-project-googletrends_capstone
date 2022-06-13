@@ -1,4 +1,3 @@
-from click import style
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
 from dash import dcc, html, Input, Output, State, dash_table
@@ -13,13 +12,21 @@ from dashboard_table_funs import *
 ################################ Header ################################
 header =  html.Div(children=[
         html.Div([
-            html.H1(children='Nowcasting Macroeconomic Indicators Using Google Trends',
-                    style = {'textAlign' : 'center','color':'white'}
-            )],
+                    dbc.Row([
+                    dbc.Col(html.Div(html.Img(src='assets/ca-flag.jpg', height='60px', width='100px'), style={"padding-left":'30px'}), md=1),
+                    dbc.Col([
+                        dbc.Row(html.H1(children='Nowcasting Macroeconomic Indicators Using Google Trends',
+                        style = {'textAlign' : 'center','color':'white'})),
+                        dbc.Row(html.H3(children='Statistics Canada',
+                        style = {'textAlign' : 'center','color':'white'}))]
+                    , md=10
+                    ),
+                    dbc.Col(html.Div(html.Img(src='assets/ubc.png', height='80px', width='80px'), style={"padding-right":'0px'}), md=1)
+                ],
             #className='col-12',
-            style = {'padding-top' : '1%', 'padding-bottom': '1%'}
+            style = {'padding-top' : '1%'}
         ),
-        
+        ]),
     ], style = {'background-color': '#00848E'})
 
 
@@ -98,6 +105,9 @@ card_growth_rate = html.Div(dbc.Card(
         #dbc.CardHeader("Predicted Growth Rate (%)"),
         dbc.CardBody(
             [
+                html.P("Date",
+                       className="text-center", id="date_growth_rate", 
+                       style = {"fontSize": "20px", 'font-weight':'bolder'}),
                 html.P("Predicted Growth Rate (%)", style = {"fontSize": "17px"}),
                 html.P("Predicted growthrate is as shown below",
                        className="text-center", id="pred_growth_rate_sc", 
@@ -120,6 +130,9 @@ card_value = html.Div(dbc.Card(
         #dbc.CardHeader("Predicted Value"),
         dbc.CardBody(
             [
+                html.P("Date",
+                       className="text-center", id="date_value", 
+                       style = {"fontSize": "20px", 'font-weight':'bolder'}),
                 html.P("Predicted Value", style = {"fontSize": "17px"}),
                 html.P("Predicted value is as shown below",
                        className="text-center", id="pred_value_sc", style = {"fontSize": "20px", 'font-weight':'bolder'}),
@@ -174,13 +187,13 @@ about = html.Div(
                 # Title
                 dbc.ModalHeader(dbc.ModalTitle(html.Div([
                     html.H1(children='Nowcasting Macroeconomic Indicators using Google Trends',
-                            style={'color': '#935116 '}
+                            style={'color': 'white'}
                             ),
                     # html.Img(src='/../../assets/ubc.png')
                 ],
 
                     style={'padding-top': '1%'}
-                ),)),
+                ),), style = {'background-color': '#00848E'}),
 
                 # Content
                 html.Div([
@@ -218,7 +231,10 @@ about = html.Div(
                         '''[Google Trends](https://trends.google.com/trends/?geo=CA)'''),
 
                     # Info on nowcasting
-                    dbc.Card(
+                    html.Br(),
+                    dbc.Row([
+                        dbc.Col([
+                            dbc.Card(
                         [
                             dbc.CardHeader(
                                 html.H2("Why is it Nowcasting and not Forecasting?")),
@@ -231,9 +247,11 @@ about = html.Div(
                         ],
 
                         style={"width": "42rem", 'display': 'inline-block',
-                               "justify-content": "center", "border": "5px lightgray solid", 'background': '#FDF2E9'}
+                               "justify-content": "center", "border": "5px #00848E solid", 'background': '#DFE4E8'}
                     ),
-                    dbc.Card(
+                        ]),
+                        dbc.Col([
+                            dbc.Card(
                         [
                             dbc.CardHeader(
                                 html.H2("Why do we use Google Trends data?")),
@@ -245,13 +263,14 @@ about = html.Div(
                             ),
                         ],
                         style={"width": "42rem", 'display': 'inline-block',
-                               "justify-content": "center", "border": "5px lightgray solid", 'background': '#FDF2E9'}
-                    ),
+                               "justify-content": "center", "border": "5px #00848E solid", 'background': '#DFE4E8'}
+                    )
+                        ])
+                    ]), 
                     html.Br(),
                     html.Br(),
 
-
-                ], style={'padding-top': '1%', 'padding-left': '2%', 'padding-right': '2%', "background": "#E0F5F5"}),
+                ], style={'padding-top': '2%', 'padding-left': '3%', 'padding-right': '2%', "background": "#E0F5F5"}),
 
 
 
