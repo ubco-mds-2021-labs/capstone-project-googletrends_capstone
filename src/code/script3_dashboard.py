@@ -30,6 +30,7 @@ row1 = html.Div(dbc.Row(header))
 
 left_partition = html.Div([
                            html.Br(),
+                           html.Div(html.Img(src='assets/trends_new.png', height='50px', width='70px'), style={'padding-left':'50px'}),
                            html.H4("How to operate?"),
                            html.Br(),
 
@@ -37,14 +38,13 @@ left_partition = html.Div([
     "This dashboard is for nowcasting the economic indicators: Gross Domestic Product (GDP), Retail Trade Sales (RTS) and E-Commerce Sales (EC Sales)."),
                            html.H6("- The top two components are for you to adjust as per your need."),
                            html.H6("- Select the indicator from the drop down to see the growth rate and indicator's value from the plots shown."),
+                           html.H6("- The GDP, RTS and EC Sales values are in 1000,000s, 1000s ans 1000s respectively."),
                            html.H6("- Also, the predicted growth rate and predicted value (one step ahead) can be seen towards the right of the plots!"),
                            html.H6("- Adjust the slider to choose the year range and get the information accordingly."),
                            html.H6("- Keywords are used from the Google Trends. If you want to know the keywords which are used for the nowcasting, go ahead and download by clicking the buttons."),
                            html.H6("- The two plots are user friendly! The first one is for growth rate prediction of the indicator and the second one is for the predicted value."),
                            html.H6("- Select the area to zoom in and use the options on the plot to explore more."),
                            html.H6("- To know more about the project, go ahead and click the About button on the top right corner!"),
-                           html.Br(),
-                           html.Br(),
                            html.Br(),
                            html.Br(),
                            html.Br(),
@@ -57,7 +57,6 @@ left_partition = html.Div([
                         '''[E - Commerce](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010007201)'''),
                         dcc.Markdown(
                         '''[Google Trends](https://trends.google.com/trends/?geo=CA)'''),
-                           html.Br(),
                            html.Br(),
                            html.Br(),
                            html.Br(),
@@ -88,13 +87,13 @@ right_row2 = html.Div(dbc.Row(
 
 right_row3 = html.Div(dbc.Row([
     dbc.Col(growth_rate_plot_object),
-    dbc.Col(card_growth_rate, width=3, style = {'padding-top': '140px', 'padding-bottom': '0px'})
+    dbc.Col(card_growth_rate, width=3, style = {'padding-top': '130px', 'padding-bottom': '0px'})
 ]))
 
 
 right_row4 = html.Div(dbc.Row([
     dbc.Col(value_plot_object),
-    dbc.Col(card_value,  width=3, style = {'padding-top': '120px'})
+    dbc.Col(card_value,  width=3, style = {'padding-top': '105px'})
 ]))
 
 

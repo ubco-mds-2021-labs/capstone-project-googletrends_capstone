@@ -79,3 +79,25 @@ def pred_error_scorecard(value='GDP'):
     elif value == 'EC':
         return '{:,}'.format(round(pred_error['ECOM'][0], 2))
 
+
+# date on score cards
+IndicatorGrowth_gdp = pd.read_csv('../../data/storeddata/GDP_GrowthRateResults.csv')
+IndicatorGrowth_rts = pd.read_csv('../../data/storeddata/RTS_GrowthRateREsults.csv')
+IndicatorGrowth_ec = pd.read_csv('../../data/storeddata/Ecomm_GrowthRateResults.csv')
+
+
+def date_for_score_card(indicator):
+    """ returns the number of predicted growth rates to color those rows"""
+
+    if indicator == "GDP":
+        IndicatorGrowth = IndicatorGrowth_gdp
+    if indicator == "RTS":
+        IndicatorGrowth = IndicatorGrowth_rts
+    if indicator == "EC":
+        IndicatorGrowth = IndicatorGrowth_ec
+
+    months_dict = {'1': 'Jan', '2': 'Feb', '3': 'Mar', '4': 'Apr', '5': 'May', '6': 'Jun', '7': 'Jul', '8':'Aug', 
+                    '9': 'Sep', '10': 'Oct', '11': 'Nov', '12': 'Dec'}
+    req_date = pd.to_datetime(IndicatorGrowth[IndicatorGrowth.iloc[:,1].isna()].iloc[0,0])
+    temp_date = months_dict[str(req_date.month)]+"-"+str(req_date.year)
+    return temp_date
