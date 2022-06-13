@@ -1,1 +1,1 @@
-web: gunicorn --chdir src/code script3_dashboard:server
+web: gunicorn src.code.script3_dashboard:server
