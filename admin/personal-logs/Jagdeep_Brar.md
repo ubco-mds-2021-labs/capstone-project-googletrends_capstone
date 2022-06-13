@@ -32,6 +32,6 @@
 | Jun07 | 8     |      Making scripts of code for easy compilation of dashboard                                    |
 | Jun08 | 8     |      Made scripts from notebooks, started working on dashboard                                    |
 | Jun09 | 8     |      Created plots for dahboard and made them interactive                                 |
-| Jun0X | X     |                                          |
+| Jun10 | 9     |      Did Callback for tables and layout of the dashboard                                |
 | ----- | ----- | -------------- End of June ------------- |
 
