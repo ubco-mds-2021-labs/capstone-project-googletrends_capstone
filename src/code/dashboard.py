@@ -33,38 +33,51 @@ right_partition = html.Div("this is right partition this is right partition this
 
 right_row1 = html.Div(dbc.Row(
             [
-                dbc.Col(html.Div(indicator),md=4),
+                dbc.Col(html.Div(indicator),md=3, style = {'padding-right':'10px'}),
                 dbc.Col(html.Div(year),md=8)
-            ]), style = {'padding-bottom': '20px'})
+            ]), style = {'padding-bottom': '20px', 
+                          'padding-left':'30px',
+                          'padding-top':'20px'})
 
 right_row2 = html.Div(dbc.Row(
             [
-                dbc.Col(html.Div(gdp_download_button)),
-                dbc.Col(html.Div(rts_download_button)),
-                dbc.Col(html.Div(ec_download_button)),
-                dbc.Col(html.Div(about))
-            ]))
+                dbc.Col(gdp_download_button),
+                dbc.Col(rts_download_button),
+                dbc.Col(ec_download_button),
+                dbc.Col(about)
+            ]), style = {'padding-bottom': '10px', 
+                          'padding-left':'100px',
+                          #'padding-right':'100px',
+                          'padding-top':'5px'})
 
 
 right_row3 = html.Div(dbc.Row([
     dbc.Col(growth_rate_plot_object),
-    dbc.Col(card_growth_rate, width=2, style = {'padding-top': '150px',
-                                                'padding-right': '0px',
-                                                'right-margin': '10'})
+    dbc.Col(card_growth_rate, width=3, style = {'padding-top': '140px', 'padding-bottom': '0px'})
 ]))
 
 
 right_row4 = html.Div(dbc.Row([
     dbc.Col(value_plot_object),
-    dbc.Col(card_value,  width=2, style = {'padding-top': '120px',
-                                                'padding-right': '0px',
-                                                'right-margin': '10'})
+    dbc.Col(card_value,  width=3, style = {'padding-top': '120px'})
 ]))
 
 
-right_row_5 = html.Div([
-    dbc.Row(growth_rate_table),
-    dbc.Row(pred_interval_table)
+table_captions = dbc.Row([
+    dbc.Col(html.Div("Table 1. Growth Rate and Value"), md = 4, style = {'text-align': "center"}),
+    dbc.Col(html.Div("Table 2. Predicted Value with Prediction Interval"), md = 7, style = {'text-align': "center"})
+])
+
+right_row_5 = dbc.Row([
+        dbc.Col(growth_rate_table, style = {'padding-left': '70px'}),
+        dbc.Col(pred_interval_table, style = {'padding-right': '120px'})
+    ])
+
+right_row6 = dbc.Row([
+    dbc.Col(actual_box,  md = 1, style = {'padding-left': '70px'}),
+    dbc.Col(html.Div("Actual values"), md=2),
+    dbc.Col(pred_box, md=1, style = {'padding-left': '70px'}),
+    dbc.Col(html.Div("Predicted values"), md=2)
 ])
 
 
@@ -73,21 +86,27 @@ right_partition = html.Div(dbc.Col([
     right_row2,
     right_row3,
     right_row4,
-    right_row_5
+    html.Br(),
+    table_captions,
+    right_row_5, 
+    html.Br(),
+    right_row6
 ]))
 
+
 row2 = html.Div(dbc.Row([
-    dbc.Col(left_partition, md=2),
+    dbc.Col(left_partition, md=2, style = {'background-color': '#47C1BF'}),
     dbc.Col(right_partition)
     ]))
 
 
+
 ################################ layout #############################################
 
-app.layout = dbc.Container([
+app.layout = html.Div([
     row1,
     row2
-])
+], style = {'background-color': '#DFE4E8'})
 
 
 
