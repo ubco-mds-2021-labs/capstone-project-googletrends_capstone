@@ -5,26 +5,26 @@ from datetime import datetime
 
 
 ### Read data for all the indicators (value)
-gdp_value_path = '../../data/storeddata/GDP_ValueResults.csv'
+gdp_value_path = 'data/storeddata/GDP_ValueResults.csv'
 gdp_value = pd.read_csv(gdp_value_path, index_col=0)
 gdp_value.index = pd.to_datetime(gdp_value.index)
-rts_value_path = '../../data/storeddata/RTS_ValueResults.csv'
+rts_value_path = 'data/storeddata/RTS_ValueResults.csv'
 rts_value = pd.read_csv(rts_value_path, index_col=0)
 rts_value.index = pd.to_datetime(rts_value.index)
-ec_value_path = '../../data/storeddata/EComm_ValueResults.csv'
+ec_value_path = 'data/storeddata/Ecomm_ValueResults.csv'
 ec_value = pd.read_csv(ec_value_path, index_col=0)
 ec_value.index = pd.to_datetime(ec_value.index)
 
 ### Read data for all the indicators (Growth Rate)
-gdp_growth_path = '../../data/storeddata/GDP_GrowthRateResults.csv'
+gdp_growth_path = 'data/storeddata/GDP_GrowthRateResults.csv'
 gdp_growth = pd.read_csv(gdp_growth_path, index_col=0)
 gdp_growth.index = pd.to_datetime(gdp_growth.index)
 gdp_growth = gdp_growth.rename(columns={'GDP_GrowthRate': 'Actual Growth Rate'})
-rts_growth_path = '../../data/storeddata/RTS_GrowthRateResults.csv'
+rts_growth_path = 'data/storeddata/RTS_GrowthRateResults.csv'
 rts_growth = pd.read_csv(rts_growth_path, index_col=0)
 rts_growth.index = pd.to_datetime(rts_growth.index)
 rts_growth = rts_growth.rename(columns={'GrowthRate': 'Actual Growth Rate'})
-ec_growth_path = '../../data/storeddata/EComm_GrowthRateResults.csv'
+ec_growth_path = 'data/storeddata/Ecomm_GrowthRateResults.csv'
 ec_growth = pd.read_csv(ec_growth_path, index_col=0)
 ec_growth.index = pd.to_datetime(ec_growth.index)
 ec_growth = ec_growth.rename(columns={'Ecommerce_GrowthRate': 'Actual Growth Rate'})

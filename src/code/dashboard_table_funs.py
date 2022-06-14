@@ -2,12 +2,12 @@ import pandas as pd
 import math
 
 
-IndicatorValues_gdp = pd.read_csv('../../data/storeddata/GDP_ValueResults.csv')
-IndicatorGrowth_gdp = pd.read_csv('../../data/storeddata/GDP_GrowthRateResults.csv')
-IndicatorValues_rts = pd.read_csv('../../data/storeddata/RTS_ValueResults.csv')
-IndicatorGrowth_rts = pd.read_csv('../../data/storeddata/RTS_GrowthRateREsults.csv')
-IndicatorValues_ec = pd.read_csv('../../data/storeddata/Ecomm_ValueResults.csv')
-IndicatorGrowth_ec = pd.read_csv('../../data/storeddata/Ecomm_GrowthRateResults.csv')
+IndicatorValues_gdp = pd.read_csv('data/storeddata/GDP_ValueResults.csv')
+IndicatorGrowth_gdp = pd.read_csv('data/storeddata/GDP_GrowthRateResults.csv')
+IndicatorValues_rts = pd.read_csv('data/storeddata/RTS_ValueResults.csv')
+IndicatorGrowth_rts = pd.read_csv('data/storeddata/RTS_GrowthRateResults.csv')
+IndicatorValues_ec = pd.read_csv('data/storeddata/Ecomm_ValueResults.csv')
+IndicatorGrowth_ec = pd.read_csv('data/storeddata/Ecomm_GrowthRateResults.csv')
 
 
 def Count_predicted_growth_rates(indicator):
