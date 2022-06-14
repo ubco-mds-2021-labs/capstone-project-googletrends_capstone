@@ -307,7 +307,7 @@ fig2_e, pred_e_data = ecommerce_plot_and_data_bs(rfmodel_e, rf_pred_ecommercegro
 ### Store data
 pred_gdp_growth_data.to_csv('../../data/storeddata/GDP_GrowthRateResults.csv')
 pred_gdp_data.to_csv('../../data/storeddata/GDP_ValueResults.csv')
-pred_rs_growth_data.to_csv('../../data/storeddata/RTS_GrowthRateREsults.csv')
+pred_rs_growth_data.to_csv('../../data/storeddata/RTS_GrowthRateResults.csv')
 pred_retail_data.to_csv('../../data/storeddata/RTS_ValueResults.csv')
 pred_e_growth_data.to_csv('../../data/storeddata/Ecomm_GrowthRateResults.csv')
 pred_e_data.to_csv('../../data/storeddata/Ecomm_ValueResults.csv')
