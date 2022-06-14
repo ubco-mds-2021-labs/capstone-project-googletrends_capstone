@@ -106,7 +106,7 @@ def toggle_modal(n, is_open):
     prevent_initial_call=True,
 )
 def gdp_predictors_download(n_clicks):
-    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/GDP.csv?token=GHSAT0AAAAAABQEJ7WG4WGHRLQYZQGFQ6RUYVDZNGA'
+    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/GDP.csv'
     gdp_df = pd.read_csv(url)
     return dcc.send_data_frame(gdp_df.to_csv, "GDPpredictors.csv")
 
@@ -117,7 +117,7 @@ def gdp_predictors_download(n_clicks):
     prevent_initial_call=True,
 )
 def rts_predictors_download(n_clicks):
-    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/RETAIL_SALES.csv?token=GHSAT0AAAAAABQEJ7WHWQUC3NRHY7GPKNAIYVDVYZQ'
+    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/RETAIL_SALES.csv'
     rts_df = pd.read_csv(url)
     return dcc.send_data_frame(rts_df.to_csv, "RTSpredictors.csv")
 
@@ -128,7 +128,7 @@ def rts_predictors_download(n_clicks):
     prevent_initial_call=True,
 )
 def ec_predictors_download(n_clicks):
-    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/ECOMMERCE.csv?token=GHSAT0AAAAAABQEJ7WGK5KXX4UUUFUOJYTUYVDZU6A'
+    url = 'https://raw.githubusercontent.com/ubco-mds-2021-labs/capstone-project-googletrends_capstone/main/data/keywords_data/EECOMMERCE.csv'
     ec_df = pd.read_csv(url)
     return dcc.send_data_frame(ec_df.to_csv, "ECommercepredictors.csv")
 
