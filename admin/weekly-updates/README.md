@@ -41,7 +41,7 @@
 * Had meeting with the project partners 'Statistics Canada' on Friday
 * Gave mid term presentations
 
-## week 6
+## Week 6
 * Nowcasted the actual values
 * Finalized the models for each indicator
 * Started working on the sketch of the dashboard
