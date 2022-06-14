@@ -5,24 +5,12 @@ from datetime import datetime
 import pandas as pd
 
 # Our modules
-from dashboard_plots import * 
-from dashboard_scorecard import *
-from dashboard_components import *
-from dashboard_callbacks import *
-from dashboard_table_funs import *
+from src.code.dashboard_plots import * 
+from src.code.dashboard_scorecard import *
+from src.code.dashboard_components import *
+from src.code.dashboard_callbacks import *
+from src.code.dashboard_table_funs import *
 
-
-
-# reset_button = html.Div([
-#     dbc.Button("Reset", id="reset_btn",style={
-#               #'background-color': 'blue',
-#               'color': 'white',
-#               'border': '0px',
-#               'hover': { 
-#                      'color': '#ffffff'
-#               }
-#       })
-# ])
 
 
 # Row 1

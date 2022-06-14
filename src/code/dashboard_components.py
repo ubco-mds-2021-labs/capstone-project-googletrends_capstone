@@ -4,9 +4,9 @@ from dash import dcc, html, Input, Output, State, dash_table
 from datetime import datetime
 
 # Our modules
-from dashboard_plots import * 
-from dashboard_scorecard import *
-from dashboard_table_funs import *
+from src.code.dashboard_plots import * 
+from src.code.dashboard_scorecard import *
+from src.code.dashboard_table_funs import *
 
 
 ################################ Header ################################
