@@ -95,7 +95,7 @@ def GrowthValueTable(indicator):
     GrowthRateResults_Table = GrowthRateResults_Table.iloc[:,[0,1,3]]
     GrowthRateResults_Table.rename(columns={list(GrowthRateResults_Table)[0]:'Date'}, inplace=True)
     GrowthRateResults_Table = round(GrowthRateResults_Table,2)
-    GrowthRateResults_Table.iloc[:, 2] = round(GrowthRateResults_Table.iloc[:,2], 2)
+    GrowthRateResults_Table.iloc[:, 2] = round(GrowthRateResults_Table.iloc[:,2], 4)
     GrowthRateResults_Table.iloc[:,2] = GrowthRateResults_Table.iloc[:,2].map('{:,}'.format)
     #GrowthRateResults_Table.reset_index(inplace=True)
     
