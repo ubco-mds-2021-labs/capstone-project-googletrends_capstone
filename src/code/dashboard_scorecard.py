@@ -69,7 +69,7 @@ def indicator_growth_rate_scorecard(value='GDP'):
     elif value == 'EC':
         data = ec_growth
         growth_rate = data.tail()[data.tail()[actual_name].isna()].head(1)[predicted_name][0]
-    return '{:,}'.format(round(growth_rate, 2))
+    return '{:,}'.format(round(growth_rate, 4))
 
 
 
