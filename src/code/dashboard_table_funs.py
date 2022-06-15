@@ -42,7 +42,7 @@ def ValueTable(indicator):
     IndicatorValues_Table.rename(columns={list(IndicatorValues_Table)[3]:'Prediction Interval (2.5%)'}, inplace=True)
     IndicatorValues_Table.rename(columns={list(IndicatorValues_Table)[4]:'Prediction Interval (97.5%)'}, inplace=True)
     #IndicatorValues_Table.reset_index(inplace=True)
-    IndicatorValues_Table.iloc[:, 2:] = int(IndicatorValues_Table.iloc[:,2:])
+    IndicatorValues_Table.iloc[:, 2:] = round(IndicatorValues_Table.iloc[:,2:],0)
     for i in range(1,6):
         IndicatorValues_Table.iloc[:,i] = IndicatorValues_Table.iloc[:,i].map('{:,}'.format)
 
