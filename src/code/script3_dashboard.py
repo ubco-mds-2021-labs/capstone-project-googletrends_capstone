@@ -35,7 +35,7 @@ left_partition = html.Div([
                            html.Br(),
                            #html.H6("Visualize and observe the prediction interval"),
                            #html.H6("Capture predicted error obtained from the model fitting"),
-                           html.Br(),
+                           #html.Br(),
                            html.H6("Capture indicator`s nowcasted growth rate and actual values."),
                            html.Br(),
                            html.H6("Download Keywords used for nowcasting."),
