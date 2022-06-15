@@ -22,7 +22,7 @@ bttn = html.Div(
     [
         dbc.Button("Reset", id="reset-button"),
         
-    ]
+    ], id= "rbttn"
 )
 
 text_box = html.Div(
@@ -41,6 +41,11 @@ app.layout = dbc.Container([
     text_box,
     bttn
 ])
+
+@app.callback(Output('out-all-types','n_clicks'),
+             [Input('rbttn','n_clicks')])
+def update(reset):
+    return 0
 
 if __name__ == "__main__":
     app.run_server(debug=True)
