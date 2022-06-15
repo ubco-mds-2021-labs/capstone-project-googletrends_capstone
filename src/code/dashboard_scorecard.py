@@ -87,9 +87,7 @@ def pred_error_scorecard(value='GDP'):
 IndicatorGrowth_gdp = pd.read_csv('data/storeddata/GDP_GrowthRateResults.csv')
 IndicatorGrowth_rts = pd.read_csv('data/storeddata/RTS_GrowthRateResults.csv')
 IndicatorGrowth_ec = pd.read_csv('data/storeddata/Ecomm_GrowthRateResults.csv')
-IndicatorGrowth_gdp = IndicatorGrowth_gdp*100
-IndicatorGrowth_rts = IndicatorGrowth_rts*100
-IndicatorGrowth_ec = IndicatorGrowth_ec*100
+
 
 
 def date_for_score_card(indicator):
