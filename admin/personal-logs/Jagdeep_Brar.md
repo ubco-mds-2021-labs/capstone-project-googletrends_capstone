@@ -33,5 +33,7 @@
 | Jun08 | 8     |      Made scripts from notebooks, started working on dashboard                                    |
 | Jun09 | 8     |      Created plots for dahboard and made them interactive                                 |
 | Jun10 | 9     |      Did Callback for tables and layout of the dashboard                                |
+| Jun13 | 8     |      Deployed dashboard and fixed errors   |
+| Jun14 | 9     |      Started working on report  |
 | ----- | ----- | -------------- End of June ------------- |
 
