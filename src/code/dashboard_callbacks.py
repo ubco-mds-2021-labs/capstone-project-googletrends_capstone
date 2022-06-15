@@ -17,6 +17,15 @@ server = app.server
 
 
 ########################## Callbacks #############################################
+# for caption rows
+@app.callback(
+    Output('caption_id', 'children'),
+    Input("indicators_dropdown", "value")
+)
+def update_caption(value):
+    return caption(value)
+
+    
 # for growth rate plot
 @app.callback(
     Output("growth_rate_plot", 'figure'),
