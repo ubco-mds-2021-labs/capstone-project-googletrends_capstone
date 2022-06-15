@@ -20,9 +20,9 @@ left_partition = html.Div([
                            html.Br(),
                            html.Div(html.Img(src='assets/trends_new.png', height='50px', width='70px'), style={'padding-left':'50px'}),
                            html.Br(),
+                           html.Br(),
                            html.H5("Gather Information"),
                            html.Br(),
-
                            html.H6(
     "The purpose of dashboard is to visualize nowcasting of economic indicators: Gross Domestic Product (GDP), Retail Trade Sales (RTS) and E-Commerce Sales (EC Sales)."),
                            html.Br(),
@@ -35,7 +35,7 @@ left_partition = html.Div([
                            html.Br(),
                            #html.H6("Visualize and observe the prediction interval"),
                            #html.H6("Capture predicted error obtained from the model fitting"),
-                           html.Br(),
+                           #html.Br(),
                            html.H6("Capture indicator`s nowcasted growth rate and actual values."),
                            html.Br(),
                            html.H6("Download Keywords used for nowcasting."),
