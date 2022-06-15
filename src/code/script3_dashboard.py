@@ -52,6 +52,10 @@ left_partition = html.Div([
                            html.Br(),
                            html.Br(),
                            html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
                            html.H6("Data Sources: "),
                            html.Br(),
                            dcc.Markdown(
