@@ -36,7 +36,6 @@ left_partition = html.Div([
                            #html.H6("Capture predicted error obtained from the model fitting"),
                            #html.Br(),
                            #html.H6("- Capture indicator`s nowcasted growth rate and actual values."),
-                           html.Br(),
                            html.H6("- Click the download buttons to get the keywords used for nowcasting."),
                            html.Br(),
                            #html.H6("- Also, the predicted growth rate and predicted value (one step ahead) can be seen towards the right of the plots!"),
@@ -47,7 +46,14 @@ left_partition = html.Div([
                            html.Br(),
                            html.Br(),
                            html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
+                           html.Br(),
                            html.H6("Data Sources: "),
+                           html.Br(),
                            dcc.Markdown(
                         '''[Gross Domestic Product](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610010401)'''),
                            dcc.Markdown(
