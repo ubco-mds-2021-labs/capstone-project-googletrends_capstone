@@ -9,7 +9,7 @@ IndicatorGrowth_rts = pd.read_csv('data/storeddata/RTS_GrowthRateResults.csv')
 IndicatorValues_ec = pd.read_csv('data/storeddata/Ecomm_ValueResults.csv')
 IndicatorGrowth_ec = pd.read_csv('data/storeddata/Ecomm_GrowthRateResults.csv')
 IndicatorGrowth_gdp.iloc[:, 1:] = IndicatorGrowth_gdp.iloc[:, 1:]*100
-IndicatorValues_rts.iloc[:, 1:] = IndicatorValues_rts.iloc[:, 1:]*100
+IndicatorGrowth_rts.iloc[:, 1:] = IndicatorGrowth_rts.iloc[:, 1:]*100
 IndicatorGrowth_ec.iloc[:, 1:] = IndicatorGrowth_ec.iloc[:, 1:]*100
 
 
