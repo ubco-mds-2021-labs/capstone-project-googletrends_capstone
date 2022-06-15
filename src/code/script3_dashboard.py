@@ -85,6 +85,8 @@ right_row2 = html.Div(dbc.Row(
                           'padding-top':'5px'})
 
 
+right_row_caption = dbc.Row(right_row_captions)
+
 right_row3 = html.Div(dbc.Row([
     dbc.Col(growth_rate_plot_object),
     dbc.Col(card_growth_rate, width=3, style = {'padding-top': '130px', 'padding-bottom': '0px'})
@@ -118,6 +120,7 @@ right_row6 = dbc.Row([
 right_partition = html.Div(dbc.Col([
     right_row1,
     right_row2,
+    right_row_caption,
     right_row3,
     right_row4,
     html.Br(),
