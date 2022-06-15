@@ -8,6 +8,9 @@ IndicatorValues_rts = pd.read_csv('data/storeddata/RTS_ValueResults.csv')
 IndicatorGrowth_rts = pd.read_csv('data/storeddata/RTS_GrowthRateResults.csv')
 IndicatorValues_ec = pd.read_csv('data/storeddata/Ecomm_ValueResults.csv')
 IndicatorGrowth_ec = pd.read_csv('data/storeddata/Ecomm_GrowthRateResults.csv')
+IndicatorGrowth_gdp.iloc[:, 1:] = IndicatorGrowth_gdp.iloc[:, 1:]*100
+IndicatorValues_rts.iloc[:, 1:] = IndicatorValues_rts.iloc[:, 1:]*100
+IndicatorGrowth_ec.iloc[:, 1:] = IndicatorGrowth_ec.iloc[:, 1:]*100
 
 
 def Count_predicted_growth_rates(indicator):
@@ -39,7 +42,7 @@ def ValueTable(indicator):
     IndicatorValues_Table.rename(columns={list(IndicatorValues_Table)[3]:'Prediction Interval (2.5%)'}, inplace=True)
     IndicatorValues_Table.rename(columns={list(IndicatorValues_Table)[4]:'Prediction Interval (97.5%)'}, inplace=True)
     #IndicatorValues_Table.reset_index(inplace=True)
-    IndicatorValues_Table.iloc[:, 2:] = round(IndicatorValues_Table.iloc[:,2:], 2)
+    IndicatorValues_Table.iloc[:, 2:] = int(IndicatorValues_Table.iloc[:,2:])
     for i in range(1,6):
         IndicatorValues_Table.iloc[:,i] = IndicatorValues_Table.iloc[:,i].map('{:,}'.format)
 
@@ -91,7 +94,7 @@ def GrowthValueTable(indicator):
         
     GrowthRateResults_Table = GrowthRateResults_Table.iloc[:,[0,1,3]]
     GrowthRateResults_Table.rename(columns={list(GrowthRateResults_Table)[0]:'Date'}, inplace=True)
-    GrowthRateResults_Table = round(GrowthRateResults_Table,4)
+    GrowthRateResults_Table = round(GrowthRateResults_Table,2)
     GrowthRateResults_Table.iloc[:, 2] = round(GrowthRateResults_Table.iloc[:,2], 2)
     GrowthRateResults_Table.iloc[:,2] = GrowthRateResults_Table.iloc[:,2].map('{:,}'.format)
     #GrowthRateResults_Table.reset_index(inplace=True)
