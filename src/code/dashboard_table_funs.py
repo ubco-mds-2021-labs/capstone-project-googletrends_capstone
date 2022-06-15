@@ -59,6 +59,9 @@ def ValueTable(indicator):
         year_temp = str(temp_df.iloc[:,1][i].year)
         IndicatorValues_Table.iloc[:,1][i] = months_dict[month_temp]+"-"+year_temp
     IndicatorValues_Table.iloc[:,2] = IndicatorValues_Table.iloc[:,2].replace('nan', '-')
+    for i in range(1,6):
+        for j, value in enumerate(IndicatorValues_Table.iloc[:,i]):
+            IndicatorValues_Table.iloc[j,i] = value.split(".")[0]
     return IndicatorValues_Table.iloc[:,1:]
 
 
@@ -109,6 +112,9 @@ def GrowthValueTable(indicator):
         month_temp = str(temp_df.iloc[:,1][i].month)
         year_temp = str(temp_df.iloc[:,1][i].year)
         GrowthRateResults_Table.iloc[:,1][i] = months_dict[month_temp]+"-"+year_temp
-        
+    
+    for j, value in enumerate(GrowthRateResults_Table.iloc[:,2]):
+        GrowthRateResults_Table.iloc[:,2] = value.split(".")[0]
+
     return GrowthRateResults_Table.iloc[:,1:]
 
