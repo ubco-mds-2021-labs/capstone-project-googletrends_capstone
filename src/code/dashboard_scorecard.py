@@ -16,14 +16,17 @@ ec_value.index = pd.to_datetime(ec_value.index)
 gdp_growth_path = 'data/storeddata/GDP_GrowthRateResults.csv'
 gdp_growth = pd.read_csv(gdp_growth_path, index_col=0)
 gdp_growth.index = pd.to_datetime(gdp_growth.index)
+gdp_growth = gdp_growth*100
 gdp_growth = gdp_growth.rename(columns={'GDP_GrowthRate': 'Actual Growth Rate'})
 rts_growth_path = 'data/storeddata/RTS_GrowthRateResults.csv'
 rts_growth = pd.read_csv(rts_growth_path, index_col=0)
 rts_growth.index = pd.to_datetime(rts_growth.index)
+rts_growth = rts_growth*100
 rts_growth = rts_growth.rename(columns={'GrowthRate': 'Actual Growth Rate'})
 ec_growth_path = 'data/storeddata/Ecomm_GrowthRateResults.csv'
 ec_growth = pd.read_csv(ec_growth_path, index_col=0)
 ec_growth.index = pd.to_datetime(ec_growth.index)
+ec_growth = ec_growth*100
 ec_growth = ec_growth.rename(columns={'Ecommerce_GrowthRate': 'Actual Growth Rate'})
 
 # Read data for prediction errors
@@ -45,7 +48,7 @@ def indicator_value_scorecard(value='GDP'):
     elif value == 'EC':
         data = ec_value
         predicted_value = data.tail()[data.tail()['Actual Ecommerce'].isna()].head(1)['Predicted Ecommerce'][0]
-    return '{:,}'.format(round(predicted_value, 2))
+    return '{:,}'.format(int(predicted_value))
 
 
 #function to get the growth rate
@@ -66,24 +69,27 @@ def indicator_growth_rate_scorecard(value='GDP'):
     elif value == 'EC':
         data = ec_growth
         growth_rate = data.tail()[data.tail()[actual_name].isna()].head(1)[predicted_name][0]
-    return '{:,}'.format(round(growth_rate, 4))
+    return '{:,}'.format(round(growth_rate, 2))
 
 
 
 def pred_error_scorecard(value='GDP'):
     """function returns the prediction error of the desired indicator value"""
     if value == 'GDP':
-        return '{:,}'.format(round(pred_error['GDP'][0], 2))
+        return '{:,}'.format(int(pred_error['GDP'][0]))
     elif value == 'RTS':
-        return '{:,}'.format(round(pred_error['RTS'][0], 2))
+        return '{:,}'.format(int(pred_error['RTS'][0]))
     elif value == 'EC':
-        return '{:,}'.format(round(pred_error['ECOM'][0], 2))
+        return '{:,}'.format(int(pred_error['ECOM'][0]))
 
 
 # date on score cards
 IndicatorGrowth_gdp = pd.read_csv('data/storeddata/GDP_GrowthRateResults.csv')
 IndicatorGrowth_rts = pd.read_csv('data/storeddata/RTS_GrowthRateResults.csv')
 IndicatorGrowth_ec = pd.read_csv('data/storeddata/Ecomm_GrowthRateResults.csv')
+IndicatorGrowth_gdp = IndicatorGrowth_gdp*100
+IndicatorGrowth_rts = IndicatorGrowth_rts*100
+IndicatorGrowth_ec = IndicatorGrowth_ec*100
 
 
 def date_for_score_card(indicator):

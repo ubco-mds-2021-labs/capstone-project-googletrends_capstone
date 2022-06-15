@@ -19,14 +19,17 @@ ec_value.index = pd.to_datetime(ec_value.index)
 gdp_growth_path = 'data/storeddata/GDP_GrowthRateResults.csv'
 gdp_growth = pd.read_csv(gdp_growth_path, index_col=0)
 gdp_growth.index = pd.to_datetime(gdp_growth.index)
+gdp_growth = gdp_growth*100
 gdp_growth = gdp_growth.rename(columns={'GDP_GrowthRate': 'Actual Growth Rate'})
 rts_growth_path = 'data/storeddata/RTS_GrowthRateResults.csv'
 rts_growth = pd.read_csv(rts_growth_path, index_col=0)
 rts_growth.index = pd.to_datetime(rts_growth.index)
+rts_growth = rts_growth*100
 rts_growth = rts_growth.rename(columns={'GrowthRate': 'Actual Growth Rate'})
 ec_growth_path = 'data/storeddata/Ecomm_GrowthRateResults.csv'
 ec_growth = pd.read_csv(ec_growth_path, index_col=0)
 ec_growth.index = pd.to_datetime(ec_growth.index)
+ec_growth = ec_growth*100
 ec_growth = ec_growth.rename(columns={'Ecommerce_GrowthRate': 'Actual Growth Rate'})
 
 
