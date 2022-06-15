@@ -17,7 +17,7 @@
 | May17 | 8.5   | Meeting with prof. Reading about the PCA on time series and applied on it.                                       |
 | May18 | 10.5  | Research and fitting model on the E-commerce dataset. Forecast from the ARIMA model.                                  |
 | May19 | 6     | Meeting with the clients, worked on the suggestions. ARIMA model rolling predictions.                                     |
-| May20 | 8     | Improved ARIMA model fitting and applied Lasso model.                                        |
+| May20 | 8     | Improved ARIMA model fitting and applied Lasso model.                                |
 | May23 | 8   |Worked on improving the prediction errors of the model(ARIMA and Lasso).|
 | May24 | 8   |Worked on fitting Xgboost, random forest and Lasso (the ML models).|
 | May25| 9| Worked on Cross validation and model improvisation with parallel reading of research work|
@@ -37,5 +37,7 @@
 | Jun08 | 9     | Python Scripts cleaned and combined for all the indicators. Started creating dashboard and finalised the dashboard layout after suggestions from Professor(Firas).|
 |Jun09 | 5 | Worked on dashboard table visualizations.|
 |Jun10 | 9| Worked on dashboard components.|
+|Jun13 |10| Worked on dashboard editing and completed report writing as per the segment assigned. |
+|Jun14|9| Worked on the exective summary and report editing.| 
 | ----- | ----- | -------------- End of June ------------- |
 
