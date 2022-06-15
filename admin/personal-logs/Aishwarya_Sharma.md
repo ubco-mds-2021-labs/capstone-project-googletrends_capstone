@@ -35,5 +35,7 @@
 | Jun08 | 9     | Writed the code for the layout of dashboard. Cleaned scripts for retail trade sales.  |
 | Jun09 | 8    |Wrote code for score cards and about for dashboard. Added functions and python file for the same. |
 | Jun10 | 8     |Had meeting with the partners. Worked on dashboard. Completed score card, about and side bar parts. |
+| Jun13 | 9     |Finished the final dashboard and started deploying on heroku. Wrote final report including parts from executive summary to methodologies and tools/ techniques. |
+| Jun14 | 8     |Deployed the dashboard on heroku. Finalized the report and are working for its completion. |
 | ----- | ----- | -------------- End of June ------------- |
 
