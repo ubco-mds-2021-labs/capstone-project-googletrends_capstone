@@ -53,8 +53,9 @@ year =  html.Div(children=[
                         max=max_year,
                         id='year_slider',
                         value = [2004, max_year],
-                        marks={i: str(i) for i in range(2004, max_year, 5)}, 
-                        tooltip={"placement": "bottom", "always_visible": True}),
+                        marks={i: str(i) for i in range(2004, max_year, 2)}, 
+                        #tooltip={"placement": "bottom", "always_visible": True}
+                        ),
     ])
 
 
