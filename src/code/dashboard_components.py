@@ -53,8 +53,9 @@ year =  html.Div(children=[
                         max=max_year,
                         id='year_slider',
                         value = [2004, max_year],
-                        marks={i: str(i) for i in range(2004, max_year, 5)}, 
-                        tooltip={"placement": "bottom", "always_visible": True}),
+                        marks={i: str(i) for i in range(2004, max_year, 2)}, 
+                        #tooltip={"placement": "bottom", "always_visible": True}
+                        ),
     ])
 
 
@@ -98,6 +99,17 @@ ec_download_button = html.Div([
     dcc.Download(id="download-ec-csv")
 ])
 
+
+########## Captions row ##############
+def caption(value):
+    if value == 'GDP':
+        return f"Gross Domestic Product, expenditure-based, Canada, quarterly (x 1,000,000)"
+    elif value == 'RTS':
+        return f"Retail Trade Sales, Canada, monthly (x 1,000)"
+    elif value == 'EC':
+        return f"E-Commerce Sales, Canada, monthly (x 1,000)"
+
+right_row_captions = html.Div(html.H4(caption('GDP'), id="caption_id", style = {'textAlign' : 'center', 'padding-top': '20px'}))
 
 ################################ Score card for Growth rate ################################
 card_growth_rate = html.Div(dbc.Card(

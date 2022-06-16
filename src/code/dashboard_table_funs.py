@@ -9,7 +9,7 @@ IndicatorGrowth_rts = pd.read_csv('data/storeddata/RTS_GrowthRateResults.csv')
 IndicatorValues_ec = pd.read_csv('data/storeddata/Ecomm_ValueResults.csv')
 IndicatorGrowth_ec = pd.read_csv('data/storeddata/Ecomm_GrowthRateResults.csv')
 IndicatorGrowth_gdp.iloc[:, 1:] = IndicatorGrowth_gdp.iloc[:, 1:]*100
-IndicatorValues_rts.iloc[:, 1:] = IndicatorValues_rts.iloc[:, 1:]*100
+IndicatorGrowth_rts.iloc[:, 1:] = IndicatorGrowth_rts.iloc[:, 1:]*100
 IndicatorGrowth_ec.iloc[:, 1:] = IndicatorGrowth_ec.iloc[:, 1:]*100
 
 
@@ -59,6 +59,9 @@ def ValueTable(indicator):
         year_temp = str(temp_df.iloc[:,1][i].year)
         IndicatorValues_Table.iloc[:,1][i] = months_dict[month_temp]+"-"+year_temp
     IndicatorValues_Table.iloc[:,2] = IndicatorValues_Table.iloc[:,2].replace('nan', '-')
+    for i in range(1,IndicatorValues_Table.shape[1]):
+        for j, value in enumerate(IndicatorValues_Table.iloc[:,i]):
+            IndicatorValues_Table.iloc[j,i] = str(value).split(".")[0]
     return IndicatorValues_Table.iloc[:,1:]
 
 
@@ -109,6 +112,9 @@ def GrowthValueTable(indicator):
         month_temp = str(temp_df.iloc[:,1][i].month)
         year_temp = str(temp_df.iloc[:,1][i].year)
         GrowthRateResults_Table.iloc[:,1][i] = months_dict[month_temp]+"-"+year_temp
-        
+    
+    for j, value in enumerate(GrowthRateResults_Table.iloc[:,3]):
+        GrowthRateResults_Table.iloc[:,3] = str(value).split(".")[0]
+
     return GrowthRateResults_Table.iloc[:,1:]
 
