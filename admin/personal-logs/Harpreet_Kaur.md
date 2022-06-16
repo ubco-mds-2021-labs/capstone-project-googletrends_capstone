@@ -39,5 +39,6 @@
 |Jun10 | 9| Worked on dashboard components.|
 |Jun13 |10| Worked on dashboard editing and completed report writing as per the segment assigned. |
 |Jun14|9| Worked on the exective summary and report editing.| 
+|Jun15| 10 | Worked on the dashboard improvement as per the suggestions received from the clients. Edited the final presentation and started working on the final presentation. |
 | ----- | ----- | -------------- End of June ------------- |
 
