@@ -35,5 +35,7 @@
 | Jun10 | 9     |      Did Callback for tables and layout of the dashboard                                |
 | Jun13 | 8     |      Deployed dashboard and fixed errors   |
 | Jun14 | 9     |      Started working on report  |
+| Jun15 | 9     |      Updated dashboard and worked on report  |
+| Jun16 | 9     |      working on report  |
 | ----- | ----- | -------------- End of June ------------- |
 
