@@ -1,5 +1,8 @@
 # Logs
 
-Please create the appropriate directory structure for managing individual logs.
-Create a folder for each team member.
-Each member will document and summarize their activities on a weekly (ongoing) basis.
+
+## List of Team Members
+
+1. Aishwarya Sharma
+2. Harpreet Kaur
+3. Jagdeep Brar
