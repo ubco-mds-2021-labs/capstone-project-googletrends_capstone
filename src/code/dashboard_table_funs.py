@@ -114,7 +114,7 @@ def GrowthValueTable(indicator):
         GrowthRateResults_Table.iloc[:,1][i] = months_dict[month_temp]+"-"+year_temp
     
     for j, value in enumerate(GrowthRateResults_Table.iloc[:,3]):
-        GrowthRateResults_Table.iloc[:,3] = str(value).split(".")[0]
+        GrowthRateResults_Table.iloc[j,3] = str(value).split(".")[0]
 
     return GrowthRateResults_Table.iloc[:,1:]
 
