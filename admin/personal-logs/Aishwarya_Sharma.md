@@ -37,5 +37,7 @@
 | Jun10 | 8     |Had meeting with the partners. Worked on dashboard. Completed score card, about and side bar parts. |
 | Jun13 | 9     |Finished the final dashboard and started deploying on heroku. Wrote final report including parts from executive summary to methodologies and tools/ techniques. |
 | Jun14 | 8     |Deployed the dashboard on heroku. Finalized the report and are working for its completion. |
+| Jun15 | 8     |Finished my part of report and worked on presentation. |
+| Jun16 | 8     |Combined presentation and working on the same with designing additions.|
 | ----- | ----- | -------------- End of June ------------- |
 
