@@ -41,7 +41,7 @@
 |Jun14|9| Worked on finalizing the exective summary and report editing.| 
 |Jun15| 10 | Worked on the dashboard improvement as per the suggestions received from the clients. Edited the final presentation and started working on the final presentation. |
 |Jun16|8|Worked on final presentation.|
-|Jun17|  |      | 
+|Jun17|10 | Worked on finalizing presentation, report and completed all the other requirements of readme files.      | 
 |Jun20|  |        |
 |Jun21| 6|Presented the final presentation. Hurray!!!!| 
 | ----- | ----- | -------------- End of June ------------- |
