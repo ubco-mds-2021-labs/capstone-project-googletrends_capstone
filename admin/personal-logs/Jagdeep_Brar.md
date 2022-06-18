@@ -37,5 +37,6 @@
 | Jun14 | 9     |      Started working on report  |
 | Jun15 | 9     |      Updated dashboard and worked on report  |
 | Jun16 | 9     |      working on report  |
+| Jun17 | 9     |      done with report, worked on presentation  |
 | ----- | ----- | -------------- End of June ------------- |
 
