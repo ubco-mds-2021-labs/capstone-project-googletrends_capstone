@@ -39,5 +39,7 @@
 | Jun14 | 8     |Deployed the dashboard on heroku. Finalized the report and are working for its completion. |
 | Jun15 | 8     |Finished my part of report and worked on presentation. |
 | Jun16 | 8     |Combined presentation and working on the same with designing additions.|
+| Jun17 | 9     |Finalized the report and presentation.|
+| Jun20 | 8     |Updated git with required documentation. Practiced presentation.|
 | ----- | ----- | -------------- End of June ------------- |
 
