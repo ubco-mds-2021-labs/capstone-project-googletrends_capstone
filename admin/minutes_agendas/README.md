@@ -100,3 +100,19 @@ Minutes of meetings are as mentioned below:
 2. Reviewed the sketch of the dashboard.
 3. Displayed the demo version of the dashboard(locally) about the interactive elements.
 4. Discussed about the filing structure.
+
+
+## Meeting on June 15, 2022
+
+### Agenda:
+
+Work review and discussion about the deployed dashboard.
+
+### Minutes of Meeting:
+
+Minutes of meetings are as mentioned below:
+
+1. Provided a detailed tour about the work done in this week.
+2. Reviewed the deployed dashboard and suggestions taken.
+3. Discussed about the code filing structure.
+4. Discussed about the documentation structure.

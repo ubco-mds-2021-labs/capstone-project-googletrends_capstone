@@ -1,4 +1,3 @@
 # Proposal 
 
-The directory should contain all the files needed for your proposal, research questions and statement of work.
-
+The directory contains the proposal titled - "Assessing Google Trends Data Proposal" of the capstone completed in coordination with Statistics Canada. 

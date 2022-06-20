@@ -47,3 +47,8 @@
 * Started working on the sketch of the dashboard
 * Had meeting with the project partners 'Statistics Canada'
 
+## Week 7
+* Dashboard Deployed
+* Finalized Report Writing
+* Finalized Presentation 
+* Had meeting with the project partners 'Statistics Canada'
