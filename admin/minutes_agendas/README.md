@@ -116,3 +116,16 @@ Minutes of meetings are as mentioned below:
 2. Reviewed the deployed dashboard and suggestions taken.
 3. Discussed about the code filing structure.
 4. Discussed about the documentation structure.
+
+## Meeting on June 22, 2022
+
+### Agenda:
+
+Handover of the code and other deliverables.
+
+### Minutes of Meeting:
+
+Minutes of meetings are as mentioned below:
+
+1. Handed over the code to the Statistics Canada team along with explanation to the code.
+2. Handed over all the deliverables along with the explanation to each.
