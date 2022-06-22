@@ -18,17 +18,17 @@ This directory includes any data files that are used for accomplishing the proje
 
 To reproduce the results, three csv files need to be replaced with the new csv files (Statistics Canada's data for three indicators). 
 Please download the below mentioned csv files as 'entire table in csv format' (this option is available while downloading the file). 
-These details of these files are mentioned below:
+The details of these files are mentioned below:
  
-1. **'expenditure/expenditure_gdp_new.csv'**: After every quarter when new GDP is released then this files should be 
+1. **'data/expenditure/expenditure_gdp_new.csv'**: After every quarter when new GDP is released then this file should be 
 replaced by the new csv file that contains the expenditure based GDP (Table number: 36100104). Please rename the new file as 'expenditure_gdp_new.csv'.
 
-2. **'retailSalesbyIndustry.csv'**: After every month when new Retail Sales are 
-released then this files should be replaced by the new csv file that contains the 
+2. **'data/retailsalesbyIndustry/retailSalesbyIndustry.csv'**: After every month when new Retail Sales are 
+released then this file should be replaced by the new csv file that contains the 
 newly released sales (Table number: 20100008). Please rename the new file as 
 'retailSalesbyIndustry.csv'.
 
-2. **'retailEcommerceSales.csv'**: After every month when new E-Commerce Sales are 
-released then this files should be replaced by the new csv file that contains the 
+2. **'data/retailEcommercesales/retailEcommerceSales.csv'**: After every month when new E-Commerce Sales are 
+released then this file should be replaced by the new csv file that contains the 
 newly released E-Commerce sales (Table number: 20100072). Please rename the new file as 
 'retailEcommerceSales.csv'.
